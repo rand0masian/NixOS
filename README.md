@@ -1,6 +1,6 @@
 # NixOS
 
-A personalised NixOS configuration featuring a switchboard to use multiple configurations within an singular system.
+A personalised NixOS configuration featuring a switchboard to use multiple configurations within a singular system.
 
 ## Hosts
 
