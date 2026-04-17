@@ -16,6 +16,7 @@
                     nixpkgs.overlays = [
                         self.overlays.neo-zen
                         self.overlays.wallpapers
+                        self.overlays.pfps
                     ];
 
                     nixpkgs.config.allowUnfree = true;

@@ -399,6 +399,42 @@
         "type": "github"
       }
     },
+    "pfp01": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-dDcVeiSTGOooB62B6uML776N7VguHR00m6c1xq9DgpU=",
+        "type": "file",
+        "url": "https://novapicsly.com/wp-content/uploads/2026/01/dark-emo-pfp-glitch-effect-distorted-moody.webp"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://novapicsly.com/wp-content/uploads/2026/01/dark-emo-pfp-glitch-effect-distorted-moody.webp"
+      }
+    },
+    "pfp02": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-0MENqc2iBjH5qq0ndvkPkTRJTuJl/zrxhaccde+nJDs=",
+        "type": "file",
+        "url": "https://i.pinimg.com/236x/44/dd/39/44dd39521229bf5c43fdfc64ee62b412.jpg"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://i.pinimg.com/236x/44/dd/39/44dd39521229bf5c43fdfc64ee62b412.jpg"
+      }
+    },
+    "pfp03": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-PJoBBnvrRGqOfsuec+mDo7g7Jl34B2RCIuQBgziodKg=",
+        "type": "file",
+        "url": "https://i.pinimg.com/236x/f2/6b/cd/f26bcdef78bfe21c06f121e48d5f775b.jpg"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://i.pinimg.com/236x/f2/6b/cd/f26bcdef78bfe21c06f121e48d5f775b.jpg"
+      }
+    },
     "root": {
       "inputs": {
         "PINCE": "PINCE",
@@ -414,6 +450,9 @@
         "nix-wrapper-modules": "nix-wrapper-modules",
         "nixpkgs": "nixpkgs_3",
         "noctalia": "noctalia",
+        "pfp01": "pfp01",
+        "pfp02": "pfp02",
+        "pfp03": "pfp03",
         "spicetify-nix": "spicetify-nix",
         "wallpapers": "wallpapers",
         "zen-browser": "zen-browser"

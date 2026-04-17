@@ -57,6 +57,21 @@
             };
         };
 
+        pfp01 = {
+            url = "https://novapicsly.com/wp-content/uploads/2026/01/dark-emo-pfp-glitch-effect-distorted-moody.webp";
+            flake = false;
+        };
+
+        pfp02 = {
+            url = "https://i.pinimg.com/236x/44/dd/39/44dd39521229bf5c43fdfc64ee62b412.jpg";
+            flake = false;
+        };
+
+        pfp03 = {
+            url = "https://i.pinimg.com/236x/f2/6b/cd/f26bcdef78bfe21c06f121e48d5f775b.jpg";
+            flake = false;
+        };
+
         niri.url = "github:sodiboo/niri-flake";
         flake-parts.url = "github:hercules-ci/flake-parts";
         nix-wrapper-modules.url = "github:BirdeeHub/nix-wrapper-modules";

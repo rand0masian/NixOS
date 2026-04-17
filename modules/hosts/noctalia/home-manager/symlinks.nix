@@ -10,6 +10,12 @@
                         recursive = true;
                         force = true;
                     };
+
+                    "./pfps" = {
+                        source = "${pkgs.pfps}/share/pfps";
+                        recursive = true;
+                        force = true;
+                    };
                 };
             };
     };
