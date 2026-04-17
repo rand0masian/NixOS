@@ -20,6 +20,7 @@
                     self.nixosModules.noctaliaHome
                     self.nixosModules.ssh
                     self.nixosModules.agenix
+                    self.nixosModules.steam
                 ];
 
   networking.hostName = "nixos-home-personal"; # Define your hostname.
