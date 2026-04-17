@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        noctaliaFlatpak = { config, ... }:
+        systemFlatpak = { config, ... }:
             {
                 services.flatpak = {
                     enable = true;

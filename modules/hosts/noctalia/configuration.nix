@@ -6,20 +6,20 @@
             {
                 imports = [
                     self.nixosModules.noctaliaBootloader
-                    self.nixosModules.noctaliaSDDM
+                    self.nixosModules.sddm
                     self.nixosModules.noctaliaHardware
-                    self.nixosModules.noctaliaNvidia
-                    self.nixosModules.noctaliaNiri
-                    self.nixosModules.noctaliaFlatpak
-                    self.nixosModules.noctaliaSteam
-                    self.nixosModules.noctaliaFileextraction
+                    self.nixosModules.nvidia
+                    self.nixosModules.niri
+                    self.nixosModules.systemFlatpak
+                    self.nixosModules.fileExtraction
                     self.nixosModules.noctaliaX11wayland
                     self.nixosModules.noctaliaDbus
                     self.nixosModules.noctaliaXDG
                     self.nixosModules.noctaliaPaths
                     self.nixosModules.noctaliaFonts
                     self.nixosModules.noctaliaHome
-                    self.nixosModules.noctaliaSSH
+                    self.nixosModules.ssh
+                    self.nixosModules.agenix
                 ];
 
   networking.hostName = "nixos-home-personal"; # Define your hostname.

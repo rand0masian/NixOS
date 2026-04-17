@@ -2,9 +2,9 @@
 
 {
     flake.nixosModules = {
-        noctaliaSteam = { config, ... }:
+        niri = { config, ... }:
             {
-                programs.steam = {
+                programs.niri = {
                     enable = true;
                 };
             };

@@ -50,6 +50,13 @@
             };
         };
 
+        agenix = {
+            url = "github:ryantm/agenix";
+            inputs = {
+                nixpkgs.follows = "nixpkgs";
+            };
+        };
+
         niri.url = "github:sodiboo/niri-flake";
         flake-parts.url = "github:hercules-ci/flake-parts";
         nix-wrapper-modules.url = "github:BirdeeHub/nix-wrapper-modules";

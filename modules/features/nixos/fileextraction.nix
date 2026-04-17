@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        noctaliaFileextraction = { config, pkgs, ... }:
+        fileExtraction = { config, pkgs, ... }:
             {
                 environment.systemPackages = with pkgs; [
                     pkgs.p7zip

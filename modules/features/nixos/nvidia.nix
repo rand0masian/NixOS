@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        noctaliaNvidia = { config, pkgs, ... }:
+        nvidia = { config, pkgs, ... }:
             {
                 nixpkgs.config = {
                     allowUnfree = true;

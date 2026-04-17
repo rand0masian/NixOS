@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        noctaliaSDDM = { config, ... }:
+        sddm = { config, ... }:
             {
                 services.displayManager = {
                     sddm = {
