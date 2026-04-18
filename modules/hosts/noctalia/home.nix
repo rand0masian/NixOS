@@ -20,6 +20,7 @@
                             self.homeModules.flatpak
                             self.homeModules.spicetify
                             self.homeModules.git
+                            self.homeModules.protonvpn
                         ];
 
                         programs.home-manager = {
