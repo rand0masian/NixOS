@@ -61,6 +61,7 @@
                                 "Mod+Q".action.close-window = {};
                                 "Mod+Tab".action.toggle-overview = {};
                                 "Mod+W".action.spawn = [ "zen-twilight" ];
+                                "Mod+E".action.spawn = lib.getExe pkgs.kdePackages.dolphin;
                                 "Mod+C".action.spawn-sh = lib.getExe pkgs.vscode;
                                 "Mod+S".action.spawn = [ "spotify" ];
                                 "Mod+D".action.spawn-sh = lib.getExe pkgs.vesktop;
