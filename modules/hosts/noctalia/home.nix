@@ -21,6 +21,7 @@
                             self.homeModules.spicetify
                             self.homeModules.git
                             self.homeModules.protonvpn
+                            self.homeModules.quickshell
                         ];
 
                         programs.home-manager = {
