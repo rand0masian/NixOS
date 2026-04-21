@@ -2,9 +2,9 @@
 
 {
     flake.nixosModules = {
-        flatpak = { config, ... }:
+        cureneDbus = { config, ... }:
             {
-                services.flatpak = {
+                services.dbus = {
                     enable = true;
                 };
             };

@@ -1,12 +1,9 @@
 { self, inputs, lib, ... }:
 
 {
-    options.flake = {
-        homeModules = lib.mkOption {
-            type = lib.types.lazyAttrsOf lib.types.deferredModule;
-            default = {};
-        };
-    };
+    imports = [
+        ../../options.nix
+    ];
 
     config.flake = {
         nixosConfigurations.noctalia = inputs.nixpkgs.lib.nixosSystem {

@@ -2,9 +2,9 @@
 
 {
     flake.nixosModules = {
-        flatpak = { config, ... }:
+        cureneSecurity = { config, ... }:
             {
-                services.flatpak = {
+                security.rtkit = {
                     enable = true;
                 };
             };

@@ -10,7 +10,7 @@
                     self.nixosModules.noctaliaHardware
                     self.nixosModules.nvidia
                     self.nixosModules.niri
-                    self.nixosModules.systemFlatpak
+                    self.nixosModules.flatpak
                     self.nixosModules.fileExtraction
                     self.nixosModules.noctaliaX11wayland
                     self.nixosModules.noctaliaDbus
