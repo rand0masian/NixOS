@@ -87,10 +87,6 @@
     isNormalUser = true;
     description = "randomasian";
     extraGroups = [ "networkmanager" "wheel" "input" "tty" ];
-    packages = with pkgs; [
-      kdePackages.kate
-    #  thunderbird
-    ];
   };
 
   # Install firefox.
