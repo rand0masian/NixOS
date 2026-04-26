@@ -28,6 +28,7 @@
                     self.nixosModules.cureneDbus
                     self.nixosModules.curenePaths
                     self.nixosModules.cureneXDG
+                    self.nixosModules.hyprland
                 ];
             };
     };
