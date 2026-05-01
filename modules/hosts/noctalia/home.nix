@@ -22,6 +22,7 @@
                             self.homeModules.git
                             self.homeModules.protonvpn
                             self.homeModules.quickshell
+                            self.homeModules.audacity
                         ];
 
                         programs.home-manager = {
