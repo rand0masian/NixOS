@@ -23,6 +23,7 @@
                             self.homeModules.protonvpn
                             self.homeModules.quickshell
                             self.homeModules.audacity
+                            self.homeModules.pavucontrol
                         ];
 
                         programs.home-manager = {
