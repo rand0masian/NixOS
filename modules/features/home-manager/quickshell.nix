@@ -4,8 +4,8 @@
     flake.homeModules = {
         quickshell = { config, pkgs, ... }:
             {
-                home.packages = [
-                    pkgs.quickshell
+                home.packages = with pkgs; [
+                    quickshell
                 ];
             };
     };
