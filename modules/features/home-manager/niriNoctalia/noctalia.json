@@ -29,6 +29,7 @@
       "left": [
         {
           "colorizeSystemIcon": "none",
+          "colorizeSystemText": "none",
           "customIconPath": "",
           "enableColorization": false,
           "icon": "rocket",
@@ -162,6 +163,7 @@
         {
           "colorizeDistroLogo": false,
           "colorizeSystemIcon": "none",
+          "colorizeSystemText": "none",
           "customIconPath": "",
           "enableColorization": false,
           "icon": "noctalia",
@@ -182,7 +184,7 @@
     "screenOverrides": []
   },
   "general": {
-    "avatarImage": "/home/randomasian/pfps/exhaustedselfie.jpg",
+    "avatarImage": "/home/randomasian/pfps/yanderegoth.jpg",
     "dimmerOpacity": 0.2,
     "showScreenCorners": false,
     "forceBlackScreenCorners": false,
