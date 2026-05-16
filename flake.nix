@@ -72,6 +72,21 @@
             flake = false;
         };
 
+        pfp04 = {
+            url = "https://i.pinimg.com/236x/c1/f8/48/c1f84864566dd85fa97580c8d0d77a5b.jpg";
+            flake = false;
+        };
+
+        pfp05 = {
+            url = "https://i.pinimg.com/236x/50/52/44/5052446d2c85292514273585856eb031.jpg";
+            flake = false;
+        };
+
+        pfp06 = {
+            url = "https://avatars.mds.yandex.net/i?id=eb235f879e244ce0160c49218365ac4ae1ed35d7-5583010-images-thumbs&n=13";
+            flake = false;
+        };
+
         quickshell = {
             url = "github:quickshell-mirror/quickshell";
             inputs = {

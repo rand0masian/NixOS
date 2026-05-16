@@ -435,6 +435,42 @@
         "url": "https://i.pinimg.com/236x/f2/6b/cd/f26bcdef78bfe21c06f121e48d5f775b.jpg"
       }
     },
+    "pfp04": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-7ZjNTbQoVIrbepLv0c7l1/p5CLuNiuahxlOWQ0tsP9M=",
+        "type": "file",
+        "url": "https://i.pinimg.com/236x/c1/f8/48/c1f84864566dd85fa97580c8d0d77a5b.jpg"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://i.pinimg.com/236x/c1/f8/48/c1f84864566dd85fa97580c8d0d77a5b.jpg"
+      }
+    },
+    "pfp05": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-//5Tb5o/I323Gdh7IXSCwcBEHhMRZH01+d7rOFfUWv4=",
+        "type": "file",
+        "url": "https://i.pinimg.com/236x/50/52/44/5052446d2c85292514273585856eb031.jpg"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://i.pinimg.com/236x/50/52/44/5052446d2c85292514273585856eb031.jpg"
+      }
+    },
+    "pfp06": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-ho2t9Gxkppb6+7FVEDy/Cse+/UU6u7QeSpUm/ho7yMc=",
+        "type": "file",
+        "url": "https://avatars.mds.yandex.net/i?id=eb235f879e244ce0160c49218365ac4ae1ed35d7-5583010-images-thumbs&n=13"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://avatars.mds.yandex.net/i?id=eb235f879e244ce0160c49218365ac4ae1ed35d7-5583010-images-thumbs&n=13"
+      }
+    },
     "quickshell": {
       "inputs": {
         "nixpkgs": [
@@ -473,6 +509,9 @@
         "pfp01": "pfp01",
         "pfp02": "pfp02",
         "pfp03": "pfp03",
+        "pfp04": "pfp04",
+        "pfp05": "pfp05",
+        "pfp06": "pfp06",
         "quickshell": "quickshell",
         "spicetify-nix": "spicetify-nix",
         "wallpapers": "wallpapers",

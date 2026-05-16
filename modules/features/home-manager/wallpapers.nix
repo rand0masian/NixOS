@@ -21,7 +21,7 @@
                 pkgs = import inputs.nixpkgs {
                     inherit system;
                     overlays = [
-                        self.overlays.default
+                        self.overlays.wallpapers
                     ];
 
                     config.allowUnfree = true;
