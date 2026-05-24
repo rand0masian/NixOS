@@ -64,7 +64,7 @@
                                 "Mod+E".action.spawn = lib.getExe pkgs.kdePackages.dolphin;
                                 "Mod+C".action.spawn-sh = lib.getExe pkgs.vscode;
                                 "Mod+S".action.spawn = [ "spotify" ];
-                                "Mod+D".action.spawn-sh = lib.getExe pkgs.vesktop;
+                                "Mod+D".action.spawn = [ "zen-twilight" "-P" "default" "--new-window" "https://discord.com/app" ];
                                 "Mod+Space".action.spawn = [ "noctalia-shell" "ipc" "call" "launcher" "toggle" ];
                                 "Mod+L".action.spawn = [ "noctalia-shell" "ipc" "call" "lockScreen" "lock" ];
                             };
@@ -75,7 +75,11 @@
                                 }
 
                                 {
-                                    command = [ "sh" "-c" "Xwayland :0 & sleep 1 && dbus-update-activation-environment --systemd DISPLAY" ];
+                                    command = [ "sh" "-c" "Xwayland :0 & sleep 1 && dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=niri" ];
+                                }
+
+                                {
+                                    command = [ "sh" "-c" "while ! busctl --user status org.gnome.Mutter.ScreenCast >/dev/null 2>&1; do sleep 0.2; done; pkill -f xdg-desktop-portal-gnome" ];
                                 }
                             ];
                         };
