@@ -60,6 +60,11 @@
                                 "Mod+T".action.spawn-sh = lib.getExe pkgs.kitty;
                                 "Mod+Q".action.close-window = {};
                                 "Mod+Tab".action.toggle-overview = {};
+                                "Mod+Right".action.focus-column-right = {};
+                                "Mod+Left".action.focus-column-left = {};
+                                "Mod+Up".action.focus-workspace-up = {};
+                                "Mod+Down".action.focus-workspace-down = {};
+                                "Mod+F".action.fullscreen-window = {};
                                 "Mod+W".action.spawn = [ "zen-twilight" ];
                                 "Mod+E".action.spawn = lib.getExe pkgs.kdePackages.dolphin;
                                 "Mod+C".action.spawn-sh = lib.getExe pkgs.vscode;
