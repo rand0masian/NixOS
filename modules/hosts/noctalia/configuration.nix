@@ -21,6 +21,7 @@
                     self.nixosModules.ssh
                     self.nixosModules.agenix
                     self.nixosModules.steam
+                    self.nixosModules.fileCompression
                 ];
 
   networking.hostName = "nixos-home-personal"; # Define your hostname.
