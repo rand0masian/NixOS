@@ -1,13 +1,16 @@
 # NixOS
 
-A personalised NixOS configuration featuring a switchboard to use multiple configurations within a singular system.
+A modular NixOS configuration framework featuring multiple hosts and desktop environments.
 
-## Hosts
+## Features
 
-### noctalia
+- Flakes
+- Home-Manager
+- agenix
+- Multiple hosts
+- niri / hyprland support
 
-Features the renowned scrollable-tiling wayland compositer; **niri**, alongside the **noctalia** desktop shell.
+## Architecture
 
-### curene
-
-Features the **curene** dotfiles; which includes the dynamic-tiling, captivating **hyprland** wayland compositer, alongside various personalised features.
+See:
+- docs/architecture.md
