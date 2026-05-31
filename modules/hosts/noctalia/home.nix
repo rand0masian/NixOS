@@ -15,7 +15,7 @@
                     users.randomasian = {
                         imports = [
                             self.homeModules.noctaliaHomeSymlinks
-                            self.homeModules.niriNoctalia
+                            self.homeModules.noctaliaPlatform
                             self.homeModules.zen-browser
                             self.homeModules.flatpak
                             self.homeModules.spicetify
