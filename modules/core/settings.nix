@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        cureneSettings = { config, ... }:
+        settings = { config, ... }:
             {
                 nix.settings = {
                     experimental-features = [

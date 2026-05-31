@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        cureneKeymap = { config, ... }:
+        keyMap = { config, ... }:
             {
                 console.keyMap = "uk";
             };

@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        cureneNetworking = { config, ... }:
+        networking = { config, ... }:
             {
                 networking = {
                     hostName = "nixos-home-personal";

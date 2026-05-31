@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        cureneUsers = { config, ... }:
+        users = { config, ... }:
             {
                 users.users = {
                     randomasian = {

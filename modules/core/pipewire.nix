@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        curenePipewire = { config, ... }:
+        pipewire = { config, ... }:
             {
                 services = {
                     pulseaudio.enable = false;
@@ -12,7 +12,7 @@
                             enable = true;
                             support32Bit = true;
                         };
-                        
+
                         pulse.enable = true;
                     };
                 };

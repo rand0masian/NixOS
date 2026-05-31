@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        cureneXserver = { config, ... }:
+        xServer = { config, ...}:
             {
                 services.xserver = {
                     enable = true;

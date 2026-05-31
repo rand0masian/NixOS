@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        cureneXDG = { config, pkgs, ... }:
+        xdg = { config, pkgs, ... }:
             {
                 xdg.portal = {
                     enable = true;

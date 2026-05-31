@@ -2,14 +2,14 @@
 
 {
     flake.nixosModules = {
-        cureneFonts = { config, pkgs, ... }:
+        fonts = { config, pkgs, ... }:
             {
                 fonts = {
                     fontconfig.enable = true;
                     packages = with pkgs; [
                         noto-fonts 
                         noto-fonts-cjk-sans 
-                        noto-fonts-color-emoji
+                        noto-fonts-color-emoji 
                     ];
                 };
             };

@@ -2,9 +2,9 @@
 
 {
     flake.nixosModules = {
-        cureneTimezone = { config, ... }:
+        stateVersion = { config, ... }:
             {
-                time.timeZone = "Europe/London";
+                system.stateVersion = "25.11";
             };
     };
 }

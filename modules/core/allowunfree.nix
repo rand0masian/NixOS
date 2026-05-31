@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        cureneAllowunfree = { config, ... }:
+        allowUnfree = { config, ... }:
             {
                 nixpkgs.config = {
                     allowUnfree = true;

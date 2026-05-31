@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        cureneX11wayland = { config, pkgs, ... }:
+        x11Wayland = { config, pkgs, ... }:
             {
                 programs.xwayland = {
                     enable = true;

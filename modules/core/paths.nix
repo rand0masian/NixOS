@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        curenePaths = { config, ... }:
+        paths = { config, ... }:
             {
                 environment.pathsToLink = [
                     "/share/applications"

@@ -5,18 +5,13 @@
         noctaliaConfiguration = { config, pkgs, lib, ... }:
             {
                 imports = [
-                    self.nixosModules.noctaliaBootloader
+                    self.nixosModules.core
                     self.nixosModules.sddm
                     self.nixosModules.noctaliaHardware
                     self.nixosModules.nvidia
                     self.nixosModules.niri
                     self.nixosModules.flatpak
                     self.nixosModules.fileExtraction
-                    self.nixosModules.noctaliaX11wayland
-                    self.nixosModules.noctaliaDbus
-                    self.nixosModules.noctaliaXDG
-                    self.nixosModules.noctaliaPaths
-                    self.nixosModules.noctaliaFonts
                     self.nixosModules.noctaliaHome
                     self.nixosModules.ssh
                     self.nixosModules.agenix

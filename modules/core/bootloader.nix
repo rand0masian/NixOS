@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        noctaliaBootloader = { config, ... }:
+        bootLoader = { config, ... }:
             {
                 boot.loader = {
                     systemd-boot.enable = false;

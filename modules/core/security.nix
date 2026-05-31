@@ -2,9 +2,9 @@
 
 {
     flake.nixosModules = {
-        cureneDbus = { config, ... }:
+        security = { config, ... }:
             {
-                services.dbus = {
+                security.rtkit = {
                     enable = true;
                 };
             };
