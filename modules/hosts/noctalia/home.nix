@@ -25,6 +25,7 @@
                             self.homeModules.audacity
                             self.homeModules.pavucontrol
                             self.homeModules.qbittorrent
+                            self.homeModules.heroic
                         ];
 
                         programs.home-manager = {
