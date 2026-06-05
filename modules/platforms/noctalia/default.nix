@@ -6,7 +6,7 @@
             {
                 imports = [
                     self.homeModules.noctalia
-                    self.homeModules.noctaliaCompositor
+                    self.homeModules.niriNoctaliaCompositor
                 ];
             };
     };

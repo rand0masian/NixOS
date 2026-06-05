@@ -2,11 +2,22 @@
 
 {
     flake.homeModules = {
-        noctaliaCompositor = { config, ... }:
+        niriNoctaliaCompositor = { config, pkgs, ... }:
             {
                 imports = [
-                    self.homeModules.niriNoctalia
+                    inputs.niri.homeModules.niri
+                    self.homeModules.niriNoctaliaMonitors
+                    self.homeModules.niriNoctaliaInputs
+                    self.homeModules.niriNoctaliaEnvironment
+                    self.homeModules.niriNoctaliaLayerRules
+                    self.homeModules.niriNoctaliaOverview
+                    self.homeModules.niriNoctaliaBinds
+                    self.homeModules.niriNoctaliaSpawnAtStartup
                 ];
+
+                programs.niri = {
+                    package = pkgs.niri;
+                };
             };
     };
 }
