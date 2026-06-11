@@ -8,7 +8,7 @@
                     settings.outputs = {
                         "DP-3" = {
                             mode = { width = 2560; height = 1440; };
-                            position = { x = 2560; y = 0; };
+                            position = { x = 0; y = 0; };
                         };
 
                         "DP-2" = {

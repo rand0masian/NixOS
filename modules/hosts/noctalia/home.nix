@@ -26,6 +26,7 @@
                             self.homeModules.pavucontrol
                             self.homeModules.qbittorrent
                             self.homeModules.heroic
+                            self.homeModules.chrome
                         ];
 
                         programs.home-manager = {

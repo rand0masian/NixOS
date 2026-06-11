@@ -5,9 +5,9 @@
         bootLoader = { config, ... }:
             {
                 boot.loader = {
-                    systemd-boot.enable = false;
+                    systemd-boot.enable = true;
                     grub = {
-                        enable = true;
+                        enable = false;
                         device = "nodev";
                         useOSProber = true;
                         efiSupport = true;
