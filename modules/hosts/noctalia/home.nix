@@ -27,6 +27,7 @@
                             self.homeModules.qbittorrent
                             self.homeModules.heroic
                             self.homeModules.chrome
+                            self.homeModules.theClicker
                         ];
 
                         programs.home-manager = {
