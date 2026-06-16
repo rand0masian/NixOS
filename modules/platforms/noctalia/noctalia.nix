@@ -2,15 +2,14 @@
 
 {
     flake.homeModules = {
-        noctalia = { config, ... }:
+        noctalia = { config, pkgs, ... }:
             {
-                imports = [
-                    inputs.noctalia.homeModules.default
+                home.packages = with pkgs; [
+                    noctalia
                 ];
 
-                programs.noctalia-shell = {
-                    enable = true;
-                    settings = builtins.fromJSON (builtins.readFile ./noctalia.json);
+                xdg.configFile = {
+                    "noctalia/config.json".source = ./noctalia.json;
                 };
             };
     };

@@ -14,6 +14,8 @@
                         self.overlays.neo-zen
                         self.overlays.wallpapers
                         self.overlays.pfps
+                        inputs.noctalia.overlays.default
+
                     ];
 
                     nixpkgs.config.allowUnfree = true;
