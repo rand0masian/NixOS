@@ -3,29 +3,13 @@
 {
     flake.overlays = {
         pfps = final: prev: {
-            pfps = final.callPackage ({ stdenv }: stdenv.mkDerivation {
+            pfps = final.callPackage ({ pkgs }: pkgs.stdenvNoCC.mkDerivation {
                 pname = "pfps";
                 version = "latest";
-                srcs = [
-                    inputs.pfp01
-                    inputs.pfp02
-                    inputs.pfp03
-                    inputs.pfp04
-                    inputs.pfp05
-                    inputs.pfp06
-                ];
-
-                dontUnpack = true;
-                sourceRoot = ".";
+                src = ../../../assets/pfps;
                 installPhase = ''
                     mkdir -p $out/share/pfps
-                    sources=($srcs)
-                    cp "''${sources[0]}" $out/share/pfps/darkemo.webp
-                    cp "''${sources[1]}" $out/share/pfps/exhaustedselfie.jpg
-                    cp "''${sources[2]}" $out/share/pfps/catgirlangel.jpg
-                    cp "''${sources[3]}" $out/share/pfps/darkglassesgoth.jpg
-                    cp "''${sources[4]}" $out/share/pfps/yanderegoth.jpg
-                    cp "''${sources[5]}" $out/share/pfps/blackandwhite.jpg
+                    cp -r . $out/share/pfps/
                 '';
             }) {};
         };
