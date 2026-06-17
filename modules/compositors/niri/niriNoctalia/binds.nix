@@ -18,8 +18,8 @@
                         "Mod+E".action.spawn = lib.getExe pkgs.kdePackages.dolphin;
                         "Mod+C".action.spawn = lib.getExe pkgs.vscode;
                         "Mod+S".action.spawn = [ "spotify" ];
-                        "Mod+Space".action.spawn = [ "noctalia-shell" "ipc" "call" "launcher" "toggle" ];
-                        "Mod+L".action.spawn = [ "noctalia-shell" "ipc" "call" "lockScreen" "lock" ];
+                        "Mod+Space".action.spawn = [ "noctalia" "msg" "panel-toggle" "launcher" ];
+                        "Mod+L".action.spawn = [ "noctalia" "msg" "session" "lock" ];
                     };
                 };
             };

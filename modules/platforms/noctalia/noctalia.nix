@@ -9,7 +9,7 @@
                 ];
 
                 xdg.configFile = {
-                    "noctalia/config.json".source = ./noctalia.json;
+                    "noctalia/config.toml".source = ./noctalia.toml;
                 };
             };
     };
