@@ -28,6 +28,7 @@
                             self.homeModules.heroic
                             self.homeModules.chrome
                             self.homeModules.theClicker
+                            self.homeModules.tor-browser
                         ];
 
                         programs.home-manager = {
