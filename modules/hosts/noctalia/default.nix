@@ -10,17 +10,18 @@
             system = "x86_64-linux";
             modules = [
                 {
-                    nixpkgs.overlays = [
-                        self.overlays.neo-zen
-                        self.overlays.wallpapers
-                        self.overlays.pfps
-                        inputs.noctalia.overlays.default
+                    nixpkgs = {
+                        overlays = [
+                            self.overlays.neo-zen
+                            self.overlays.wallpapers
+                            self.overlays.pfps
+                            inputs.noctalia.overlays.default
+                        ];
 
-                    ];
-
-                    nixpkgs.config.allowUnfree = true;
+                        config.allowUnfree = true;
+                    };
                 }
-                
+
                 self.nixosModules.noctaliaConfiguration
             ];
         };
