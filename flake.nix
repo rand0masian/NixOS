@@ -65,7 +65,7 @@
         };
 
         end_4 = {
-            url = "github:end_4/dots-hyprland";
+            url = "github:end-4/dots-hyprland";
             flake = false;
         };
 
