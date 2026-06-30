@@ -8,6 +8,7 @@ A deployable machine.
 Current hosts:
 - noctalia
 - curene
+- end_4
 
 ### Platform
 A desktop enviroment.
