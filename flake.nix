@@ -64,6 +64,11 @@
             };
         };
 
+        end_4 = {
+            url = "github:end_4/dots-hyprland";
+            flake = false;
+        };
+
         niri.url = "github:sodiboo/niri-flake";
         flake-parts.url = "github:hercules-ci/flake-parts";
         nix-wrapper-modules.url = "github:BirdeeHub/nix-wrapper-modules";
