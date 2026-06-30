@@ -57,6 +57,22 @@
         "type": "github"
       }
     },
+    "end_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781429375,
+        "narHash": "sha256-SxSjiLLE2A02IybsaymkAzKYnHGBeR4nSS0duZiAG00=",
+        "owner": "end-4",
+        "repo": "dots-hyprland",
+        "rev": "c04b0bbc8143a2b2166c1f699f7583cb28ff78fe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "end-4",
+        "repo": "dots-hyprland",
+        "type": "github"
+      }
+    },
     "fastfetch-images-01": {
       "flake": false,
       "locked": {
@@ -399,6 +415,7 @@
       "inputs": {
         "PINCE": "PINCE",
         "agenix": "agenix",
+        "end_4": "end_4",
         "fastfetch-images-01": "fastfetch-images-01",
         "fastfetch-images-02": "fastfetch-images-02",
         "flake-parts": "flake-parts",

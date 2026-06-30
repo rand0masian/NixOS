@@ -12,7 +12,7 @@
                     };
 
                     "./pfps" = {
-                        source = "${pkgs.pfps}/share/pfps";
+                        source = ../../../assets/pfps;
                         recursive = true;
                         force = true;
                     };
