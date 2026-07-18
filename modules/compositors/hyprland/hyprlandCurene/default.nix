@@ -6,6 +6,7 @@
             {
                 imports = [
                     self.homeModules.hyprlandCureneMonitors
+                    self.homeModules.hyprlandCureneBinds
                 ];
 
                 wayland.windowManager = {

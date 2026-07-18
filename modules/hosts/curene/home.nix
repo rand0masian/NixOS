@@ -22,6 +22,8 @@
                             self.homeModules.protonvpn
                             self.homeModules.quickshell
                             self.homeModules.vscode
+                            self.homeModules.kitty
+                            self.homeModules.nautilus
                         ];
 
                         programs.home-manager = {
