@@ -29,6 +29,7 @@
                             self.homeModules.chrome
                             self.homeModules.theClicker
                             self.homeModules.tor-browser
+                            self.homeModules.telegram
                         ];
 
                         programs.home-manager = {
