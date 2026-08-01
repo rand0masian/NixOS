@@ -28,16 +28,6 @@
             flake = false;
         };
 
-        fastfetch-images-01 = {
-            url = "https://wallpapers.com/images/high/cute-anime-profile-pictures-hf5vd8c7ywpbvgvf.webp";
-            flake = false;
-        };
-
-        fastfetch-images-02 = {
-            url = "https://i.pinimg.com/736x/6f/90/ea/6f90eacec65e50b2b2f07178bedf8dd9.jpg";
-            flake = false;
-        };
-
         PINCE = {
             url = "https://github.com/korcankaraokcu/PINCE/releases/download/v0.5/PINCE-x86_64.AppImage";
             flake = false;
