@@ -2,28 +2,47 @@
 
 ## Concepts
 
-### Host
+### Assets
+Assets used across platforms.
+
+Current assets:
+- fastfetch
+- pfps
+
+### Documentation
+Documentation to document certain aspects.
+
+### Modules
+NixOS Modules.
+
+#### Compositors
+Compositors used across platforms.
+
+Current compositors:
+- hyprland
+- niri
+
+#### Core
+Core system files used for hosts.
+
+#### Features
+Functionality avaliable to platforms.
+
+#### Hosts
 A deployable machine.
 
 Current hosts:
 - noctalia
 - curene
 
-### Platform
-A desktop enviroment.
+#### Packages
+Package definition used for overlays.
+
+#### Platforms
+A desktop environment.
 
 Current platforms:
 - noctalia
 
-### Compositors
-A compositor used by a platform.
-
-Current compositors:
-- niri
-- hyprland
-
-### Feature
-Functionality avaliable to platforms
-
-### Home-Manager Module
-User-orientated configuration 
+### Secrets
+Conceals sensitive information when pushed to the repository.
