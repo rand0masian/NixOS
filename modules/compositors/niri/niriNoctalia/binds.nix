@@ -20,6 +20,7 @@
                         "Mod+S".action.spawn = [ "spotify" ];
                         "Mod+Space".action.spawn = [ "noctalia" "msg" "panel-toggle" "launcher" ];
                         "Mod+L".action.spawn = [ "noctalia" "msg" "session" "lock" ];
+                        "Mod+Print".action.screenshot = {};
                     };
                 };
             };
