@@ -30,6 +30,7 @@
                             self.homeModules.theClicker
                             self.homeModules.tor-browser
                             self.homeModules.telegram
+                            self.homeModules.renpy
                         ];
 
                         programs.home-manager = {
