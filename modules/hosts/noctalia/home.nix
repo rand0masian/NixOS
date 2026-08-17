@@ -31,6 +31,7 @@
                             self.homeModules.tor-browser
                             self.homeModules.telegram
                             self.homeModules.renpy
+                            self.homeModules.discordchatexporter
                         ];
 
                         programs.home-manager = {
