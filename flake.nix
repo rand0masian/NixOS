@@ -54,6 +54,19 @@
             };
         };
 
+        illogical-impulse = {
+            url = "github:soymou/illogical-flake";
+            inputs = {
+                nixpkgs.follows = "nixpkgs";
+                dotfiles.follows = "end4-pC";
+            };
+        };
+
+        end4-pC = {
+            url = "github:pctrade/end4-pC";
+            flake = false;
+        };
+
         niri.url = "github:sodiboo/niri-flake";
         flake-parts.url = "github:hercules-ci/flake-parts";
         nix-wrapper-modules.url = "github:BirdeeHub/nix-wrapper-modules";
