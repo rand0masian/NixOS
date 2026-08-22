@@ -9,9 +9,10 @@
                     enableCompletion = true;
                     autosuggestion.enable = true;
                     syntaxHighlighting.enable = true;
+                    dotDir = config.home.homeDirectory;
 
                     shellAliases = {
-                        snrs = "sudo nixos-rebuild switch --flake";
+                        snrs = "sudo nixos-rebuild switch --flake .#";
                     };
 
                     history = {
