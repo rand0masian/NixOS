@@ -12,7 +12,7 @@
                         noto-fonts-color-emoji
                         rubik
                         nerd-fonts.ubuntu
-                        nerd-fonts,jetbrains-mono
+                        nerd-fonts.jetbrains-mono
                     ];
                 };
             };
