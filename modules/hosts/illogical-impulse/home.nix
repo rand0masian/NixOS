@@ -23,6 +23,7 @@
                             self.homeModules.vscode
                             self.homeModules.kitty
                             self.homeModules.nautilus
+                            self.homeModules.end4-pCPlatform
                         ];
 
                         programs.home-manager = {
