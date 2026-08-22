@@ -32,6 +32,7 @@
                             self.homeModules.telegram
                             self.homeModules.renpy
                             self.homeModules.discordchatexporter
+                            self.homeModules.zsh
                         ];
 
                         programs.home-manager = {
