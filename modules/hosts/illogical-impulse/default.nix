@@ -15,6 +15,7 @@
                             self.overlays.neo-zen
                             self.overlays.wallpapers
                             self.overlays.pfps
+                            self.overlays.gnome-adwaita
                         ];
 
                         config.allowUnfree = true;
