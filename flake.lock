@@ -57,6 +57,24 @@
         "type": "github"
       }
     },
+    "dotfiles": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1778966846,
+        "narHash": "sha256-N7HUWD3dliyPDXA5qXhuma5segnnopgPo2nv5iFaeXc=",
+        "ref": "refs/heads/main",
+        "rev": "c0706258b1ff22c70f6c0e51c4b812e63703f620",
+        "revCount": 6244,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/end-4/dots-hyprland"
+      },
+      "original": {
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/end-4/dots-hyprland"
+      }
+    },
     "end4-pC": {
       "flake": false,
       "locked": {
@@ -157,9 +175,7 @@
     },
     "illogical-impulse": {
       "inputs": {
-        "dotfiles": [
-          "end4-pC"
-        ],
+        "dotfiles": "dotfiles",
         "nixpkgs": [
           "nixpkgs"
         ],
