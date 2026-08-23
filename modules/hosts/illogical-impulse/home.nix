@@ -19,7 +19,6 @@
                             self.homeModules.spicetify
                             self.homeModules.git
                             self.homeModules.protonvpn
-                            self.homeModules.quickshell
                             self.homeModules.vscode
                             self.homeModules.kitty
                             self.homeModules.nautilus
