@@ -58,7 +58,6 @@
             url = "github:soymou/illogical-flake";
             inputs = {
                 nixpkgs.follows = "nixpkgs";
-                dotfiles.follows = "end4-pC";
             };
         };
 
