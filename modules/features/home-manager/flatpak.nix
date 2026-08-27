@@ -38,7 +38,6 @@
                     overrides = {
                         "org.vinegarhq.Sober".Context = {
                             sockets = [
-                                "!wayland"
                                 "x11"
                             ];
 
