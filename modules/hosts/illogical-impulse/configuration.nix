@@ -16,6 +16,7 @@
                     self.nixosModules.hyprland
                     self.nixosModules.geoclue2
                     self.nixosModules.fileCompression-Decompression
+                    self.nixosModules.dconf
                 ];
             };
     };
