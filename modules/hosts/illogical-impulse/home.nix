@@ -22,6 +22,9 @@
                             self.homeModules.vscode
                             self.homeModules.kitty
                             self.homeModules.nautilus
+                            self.homeModules.tor-browser
+                            self.homeModules.qbittorrent
+                            self.homeModules.dolphin
                             self.homeModules.end4-pCPlatform
                         ];
 
