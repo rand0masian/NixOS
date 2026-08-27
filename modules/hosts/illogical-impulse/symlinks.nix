@@ -2,7 +2,7 @@
 
 {
     flake.homeModules = {
-        noctaliaHomeSymlinks = { config, pkgs, ... }:
+        illogical-impulseHomeSymlinks = { config, pkgs, ... }:
             {
                 home.file = {
                     "./wallpapers" = {
@@ -12,7 +12,7 @@
                     };
 
                     "./pfps" = {
-                        source = ../../../assets/pfps;
+                        source = "${pkgs.pfps}/share/pfps";
                         recursive = true;
                         force = true;
                     };

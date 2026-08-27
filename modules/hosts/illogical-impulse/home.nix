@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        noctaliaHome = { config, pkgs, ... }:
+        illogical-impulseHome = { config, pkgs, ... }:
             {
                 imports = [
                     inputs.home-manager.nixosModules.home-manager
@@ -14,34 +14,29 @@
                     extraSpecialArgs = { inherit inputs; };
                     users.randomasian = {
                         imports = [
-                            self.homeModules.noctaliaHomeSymlinks
-                            self.homeModules.noctaliaPlatform
                             self.homeModules.zen-browser
                             self.homeModules.flatpak
                             self.homeModules.spicetify
                             self.homeModules.git
                             self.homeModules.protonvpn
-                            self.homeModules.quickshell
-                            self.homeModules.audacity
-                            self.homeModules.pavucontrol
-                            self.homeModules.qbittorrent
-                            self.homeModules.heroic
-                            self.homeModules.chrome
-                            self.homeModules.theClicker
+                            self.homeModules.vscode
+                            self.homeModules.kitty
+                            self.homeModules.nautilus
                             self.homeModules.tor-browser
-                            self.homeModules.telegram
-                            self.homeModules.renpy
-                            self.homeModules.discordchatexporter
-                            self.homeModules.zsh
+                            self.homeModules.qbittorrent
+                            self.homeModules.dolphin
+                            self.homeModules.end4-pCPlatform
                         ];
 
                         programs.home-manager = {
                             enable = true;
                         };
 
-                        home.username = "randomasian";
-                        home.homeDirectory = "/home/randomasian";
-                        home.stateVersion = "25.11";
+                        home = {
+                            username = "randomasian";
+                            homeDirectory = "/home/randomasian";
+                            stateVersion = "25.11";
+                        };
                     };
                 };
             };

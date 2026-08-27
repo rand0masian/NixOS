@@ -6,7 +6,7 @@
     ];
 
     config.flake = {
-        nixosConfigurations.noctalia = inputs.nixpkgs.lib.nixosSystem {
+        nixosConfigurations.illogical-impulse = inputs.nixpkgs.lib.nixosSystem {
             system = "x86_64-linux";
             modules = [
                 {
@@ -15,14 +15,14 @@
                             self.overlays.neo-zen
                             self.overlays.wallpapers
                             self.overlays.pfps
-                            inputs.noctalia.overlays.default
+                            self.overlays.gnome-adwaita
                         ];
 
                         config.allowUnfree = true;
                     };
                 }
 
-                self.nixosModules.noctaliaConfiguration
+                self.nixosModules.illogical-impulseConfiguration
             ];
         };
     };

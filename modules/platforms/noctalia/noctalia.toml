@@ -116,7 +116,7 @@ enabled = [ "noctalia/bongocat" ]
 [shell]
 app_icon_color = "shadow"
 app_icon_colorize = true
-avatar_path = "/home/randomasian/pfps/happygoth.jpg"
+avatar_path = "/home/randomasian/pfps/thoughtfulgoth.jpg"
 font_family = "Noto Sans Mono"
 lang = "en"
 settings_show_advanced = true
@@ -161,6 +161,10 @@ settings_show_advanced = true
 
 [theme]
 builtin = "Ayu"
+community_palette = "Oxocarbon"
+mode = "auto"
+source = "builtin"
+wallpaper_scheme = "m3-content"
 
     [theme.templates]
     builtin_ids = [ "kitty", "niri" ]
@@ -168,8 +172,23 @@ builtin = "Ayu"
 
 [wallpaper]
 directory = "/home/randomasian/wallpapers"
-fill_mode = "center"
+fill_mode = "crop"
 transition_on_startup = true
+
+    [wallpaper.default]
+    path = "/home/randomasian/wallpapers/Catppuccin/sh2-p.png"
+
+    [wallpaper.last]
+    path = "/home/randomasian/wallpapers/Catppuccin/sh2-p.png"
+
+    [wallpaper.monitors.DP-2]
+    path = "/home/randomasian/wallpapers/Catppuccin/sh2-p.png"
+
+    [wallpaper.monitors.DP-3]
+    path = "/home/randomasian/wallpapers/Catppuccin/sh2-p.png"
+
+    [wallpaper.monitors.HDMI-A-1]
+    path = "/home/randomasian/wallpapers/Catppuccin/sh2-p.png"
 
 [weather]
 refresh_minutes = 10

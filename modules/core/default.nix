@@ -21,6 +21,7 @@
                     self.nixosModules.x11Wayland
                     self.nixosModules.xdg
                     self.nixosModules.xServer 
+                    self.nixosModules.firmware
                 ];
             };
     };

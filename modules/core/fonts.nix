@@ -9,7 +9,10 @@
                     packages = with pkgs; [
                         noto-fonts 
                         noto-fonts-cjk-sans 
-                        noto-fonts-color-emoji 
+                        noto-fonts-color-emoji
+                        rubik
+                        nerd-fonts.ubuntu
+                        nerd-fonts.jetbrains-mono
                     ];
                 };
             };
