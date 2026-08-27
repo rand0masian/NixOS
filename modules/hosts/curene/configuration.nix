@@ -13,7 +13,7 @@
                     self.nixosModules.ssh
                     self.nixosModules.steam
                     self.nixosModules.flatpak
-                    self.nixosModules.fileExtraction
+                    self.nixosModules.fileCompression-Decompression
                     self.nixosModules.hyprland
                 ];
             };

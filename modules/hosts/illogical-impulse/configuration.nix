@@ -15,7 +15,7 @@
                     self.nixosModules.flatpak
                     self.nixosModules.hyprland
                     self.nixosModules.geoclue2
-                    self.nixosModules.fileExtraction
+                    self.nixosModules.fileCompression-Decompression
                 ];
             };
     };
