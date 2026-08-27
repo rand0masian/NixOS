@@ -29,20 +29,25 @@ Core system files used for hosts.
 Functionality avaliable to platforms.
 
 #### Hosts
-A deployable machine.
+Deployable machines.
 
 Current hosts:
 - noctalia
 - curene
+- illogical-impulse
+
+#### Overrides
+Exposes compatiability aliases via overlays.
 
 #### Packages
-Package definition used for overlays.
+Package definitions used for overlays.
 
 #### Platforms
-A desktop environment.
+Desktop environments.
 
 Current platforms:
 - noctalia
+- end4-pC
 
 ### Secrets
 Conceals sensitive information when pushed to the repository.
