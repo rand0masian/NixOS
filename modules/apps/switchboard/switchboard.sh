@@ -209,6 +209,18 @@ confirm_disk() {
     echo "Installation target confirmed."
 }
 
+provision_disk() {
+    echo "--------------------------------------------------"
+    echo "Disk Provisioning"
+    echo "--------------------------------------------------"
+    echo "Host:     $TARGET_HOST"
+    echo "Disk:     $TARGET_DISK"
+    echo
+
+    echo "Disk provisioning is currently within dry-run mode"
+    echo "No changes have been made to $TARGET_DISK"
+}
+
 case "$MODE" in 
     switch)
         echo "Switching active system..."
@@ -237,9 +249,9 @@ case "$MODE" in
         discover_disks
         show_disk_layout
         confirm_disk
+        provision_disk
 
         echo 
-        echo "Disk provisioning is not yet enabled"
-        echo "No changes have been made to $TARGET_DISK"
+        echo "Installation halted before nixos-install"
         ;;
 esac
