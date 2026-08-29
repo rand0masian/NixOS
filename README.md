@@ -5,7 +5,7 @@ A modular NixOS configuration framework featuring multiple hosts and desktop env
 ## Installation
 
 > [!NOTE]
-> The switchboard automatically discovers avaliable host configurations and selects the appropiate deployment mode.
+> The switchboard automatically discovers avaliable host configurations and selects the appropriate deployment mode.
 
 ### Within NixOS installation media
 
