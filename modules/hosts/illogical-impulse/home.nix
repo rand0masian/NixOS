@@ -14,6 +14,7 @@
                     extraSpecialArgs = { inherit inputs; };
                     users.randomasian = {
                         imports = [
+                            self.homeModules.illogical-impulseHomeSymlinks
                             self.homeModules.zen-browser
                             self.homeModules.flatpak
                             self.homeModules.spicetify
