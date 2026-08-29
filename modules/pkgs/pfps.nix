@@ -6,7 +6,7 @@
             pfps = final.callPackage ({ pkgs }: pkgs.stdenvNoCC.mkDerivation {
                 pname = "pfps";
                 version = "latest";
-                src = ../../../assets/pfps;
+                src = ../../assets/pfps;
                 installPhase = ''
                     mkdir -p $out/share/pfps
                     cp -r . $out/share/pfps/
