@@ -11,14 +11,14 @@ A modular NixOS configuration framework featuring multiple hosts and desktop env
 
 Run the switchboard remotely:
 ```bash
-nix run github:rand0masian/NixOS/development#switchboard
+nix run github:rand0masian/NixOS#switchboard
 ```
 
 ### Within an existing NixOS system
 
 Run the switchboard remotely:
 ```bash
-nix run github:rand0masian/NixOS/development#switchboard
+nix run github:rand0masian/NixOS#switchboard
 ```
 
 Alternatively, the switchboard can be used locally:
