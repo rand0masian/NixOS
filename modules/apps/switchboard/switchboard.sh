@@ -118,6 +118,83 @@ echo
 echo "Configuration Selected:   .#$TARGET_HOST"
 echo "--------------------------------------------------"
 
+discover_disks() {
+    echo "Discovering installation targets..."
+    echo
+
+    mapfile -t DISKS < <(
+        lsblk \
+            --nodeps \
+            --noheadings \
+            --paths \
+            --output NAME,TYPE |
+        awk '$2 == "disk" { print $1 }'
+    )
+
+    if (( ${#DISKS[@]} == 0 )); then 
+        echo "Error: No installation disks detected"
+        exit 1
+    fi 
+
+    echo "Avaliable Installation Targets:"
+
+    for i in "${!DISKS[@]}"; do 
+        DISK="${DISKS[$i]}"
+        SIZE="$(lsblk --nodeps --noheadings --output SIZE "$DISK" | xargs)"
+        MODEL="$(lsblk --nodeps --noheadings --output MODEL "$DISK" | xargs)"
+        if [[ -z "$MODEL" ]]; then 
+            MODEL="Unknown Model"
+        fi 
+        printf '        [%d] %s | %s | %s\n' \
+        "$i" \
+        "$DISK" \
+        "$SIZE" \
+        "$MODEL"
+    done
+
+    echo 
+
+    read -rp "Select installation target: " DISK_INDEX
+
+    if ! [[ "$DISK_INDEX" =~ ^[0-9]+$ ]]; then 
+        echo "Error: Selection requires a numeric"
+        exit 1 
+    fi 
+
+    if (( DISK_INDEX >= ${#DISKS[@]} )); then 
+        echo "Error: Disk index out of range"
+        exit 1 
+    fi 
+
+    TARGET_DISK="${DISKS[$DISK_INDEX]}"
+
+    echo
+    echo "Select Installation Target:"
+    lsblk "$TARGET_DISK"
+    echo 
+}
+
+confirm_disk() {
+    echo "=================================================="
+    echo "WARNING: DESTRUCTIVE INSTALLATION TARGET"
+    echo "=================================================="
+    echo "Host:     $TARGET_HOST"
+    echo "Disk:     $TARGET_DISK"
+    echo 
+    echo "Future disk provisioning will erase this disk"
+    echo 
+
+    read -rp "Type '$TARGET_DISK' to confirm: " CONFIRMATION
+
+    if [[ "$CONFIRMAION" != "$TARGET_DISK" ]]; then 
+        echo "Installation cancelled"
+        exit 1
+    fi
+
+    echo 
+    echo "Installation target confirmed."
+}
+
 case "$MODE" in 
     switch)
         echo "Switching active system..."
@@ -143,12 +220,11 @@ case "$MODE" in
         echo "Installation Initialised"
         echo
 
-        if ! mountpoint -q /mnt; then
-            echo "Error: /mnt is not mounted"
-            echo "Disk provisioning yet to be implemented"
-            exit 1 
-        fi 
+        discover_disks
+        confirm_disk
 
-        sudo nixos-install --flake "$FLAKE_TARGET"
+        echo 
+        echo "Disk provisioning is not yet enabled"
+        echo "No changes have been made to $TARGET_DISK"
         ;;
 esac
