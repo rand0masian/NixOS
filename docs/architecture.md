@@ -9,11 +9,14 @@ Current assets:
 - fastfetch
 - pfps
 
-### Documentation
-Documentation to document certain aspects.
+### Docs
+Documentation explaining aspects of the repository and its architecture.
 
 ### Modules
 NixOS Modules.
+
+#### Apps
+Executable flake applications.
 
 #### Compositors
 Compositors used across platforms.
@@ -26,21 +29,20 @@ Current compositors:
 Core system files used for hosts.
 
 #### Features
-Functionality avaliable to platforms.
+Functionality available to platforms.
 
 #### Hosts
 Deployable machines.
 
 Current hosts:
 - noctalia
-- curene
 - illogical-impulse
 
 #### Overrides
-Exposes compatiability aliases via overlays.
+Exposes compatibility aliases via overlays.
 
 #### Packages
-Package definitions used for overlays.
+Package definitions used by overlays.
 
 #### Platforms
 Desktop environments.

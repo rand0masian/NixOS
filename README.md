@@ -2,15 +2,38 @@
 
 A modular NixOS configuration framework featuring multiple hosts and desktop environments.
 
+## Installation
+
+> [!NOTE]
+> The switchboard automatically discovers avaliable host configurations and selects the appropriate deployment mode.
+
+### Within NixOS installation media
+
+Run the switchboard remotely:
+```bash
+nix run github:rand0masian/NixOS/development#switchboard
+```
+
+### Within an existing NixOS system
+
+Run the switchboard remotely:
+```bash
+nix run github:rand0masian/NixOS/development#switchboard
+```
+
+Alternatively, the switchboard can be used locally:
+```bash
+nix run .#switchboard
+```
+
 ## Features
 
 - Flakes
-- Home-Manager
+- Home Manager
 - agenix
 - Multiple hosts
-- niri / hyprland support
+- Niri / Hyprland support
 
 ## Architecture
 
-See:
-- docs/architecture.md
+[Explore the overview of the repository structure and module architecture](docs/architecture.md)
