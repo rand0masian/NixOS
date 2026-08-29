@@ -174,6 +174,20 @@ discover_disks() {
     echo 
 }
 
+show_disk_layout() {
+    echo "--------------------------------------------------"
+    echo "Selected Disk Layout"
+    echo "--------------------------------------------------"
+
+    lsblk \
+        --paths \
+        --output NAME,SIZE,FSTYPE,TYPE,MOUNTPOINTS \
+        "$TARGET_DISK"
+    
+    echo "--------------------------------------------------"
+    echo
+}
+
 confirm_disk() {
     echo "=================================================="
     echo "WARNING: DESTRUCTIVE INSTALLATION TARGET"
@@ -181,7 +195,7 @@ confirm_disk() {
     echo "Host:     $TARGET_HOST"
     echo "Disk:     $TARGET_DISK"
     echo 
-    echo "Future disk provisioning will erase this disk"
+    echo "Future provisioning will erase all data on this disk"
     echo 
 
     read -rp "Type '$TARGET_DISK' to confirm: " CONFIRMATION
@@ -221,6 +235,7 @@ case "$MODE" in
         echo
 
         discover_disks
+        show_disk_layout
         confirm_disk
 
         echo 
