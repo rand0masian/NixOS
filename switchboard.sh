@@ -6,12 +6,16 @@ OS="$(uname -s)"
 ARCHITECTURE="$(uname -m)"
 CURRENT_HOST="$(hostname)"
 REQUESTED_MODE="${1:-auto}"
-SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-REPO_DIR="$SCRIPT_DIR"
 
-while [[ "$REPO_DIR" != "/" && ! -f "$REPO_DIR/flake.nix" ]]; do
-    REPO_DIR="$(dirname "$REPO_DIR")"
-done
+if [[ -n "${SWITCHBOARD_REPO:-}" ]]; then 
+    REPO_DIR="$SWITCHBOARD_REPO"
+else 
+    SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+    REPO_DIR="$SCRIPT_DIR"
+    while [[ "$REPO_DIR" != "/" && ! -f "$REPO_DIR/flake.nix" ]] do 
+        REPO_DIR="$(dirname "$REPO_DIR")"
+    done 
+fi
 
 if [[ ! -f "$REPO_DIR/flake.nix" ]]; then
     echo "Error: Unable to locate flake.nix"
