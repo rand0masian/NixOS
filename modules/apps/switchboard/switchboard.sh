@@ -216,28 +216,13 @@ provision_disk() {
     echo "Host:     $TARGET_HOST"
     echo "Disk:     $TARGET_DISK"
     echo
+    echo "Running disko in dry-run mode..."
+    echo
 
-    local TEMP_MODULE
-    TEMP_MODULE="$(mktemp --suffix=.nix)"
-    trap 'rm -f "$TEMP_MODULE"' RETURN
-    cat > "$TEMP_MODULE" <<EOF
-{ lib, ... }:
-{
-    disko.devices = {
-        disk.main = {
-            device = lib.mkForce "$TARGET_DISK";
-            };
-        };
-    }
-EOF
-
-    echo "Disk override module generated:"
-    cat "$TEMP_MODULE"
-    echo 
-
-
-    echo "Disk provisioning is currently within dry-run mode"
-    echo "No changes have been made to $TARGET_DISK"
+    sudo disko-install \
+        --dry-run \
+        --flake "$REPO_DIR#$TARGET_HOST" \
+        --disk main "$TARGET_DISK"
 }
 
 case "$MODE" in 

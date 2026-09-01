@@ -13,6 +13,8 @@
 
                 runtimeInputs = with pkgs; [
                     nix
+                    util-linix
+                    disko
                 ];
 
                 text = ''
