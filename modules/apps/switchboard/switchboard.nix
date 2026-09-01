@@ -13,7 +13,7 @@
 
                 runtimeInputs = with pkgs; [
                     nix
-                    util-linix
+                    util-linux
                     disko
                 ];
 
