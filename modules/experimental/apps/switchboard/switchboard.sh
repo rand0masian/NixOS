@@ -200,7 +200,7 @@ confirm_disk() {
 
     read -rp "Type '$TARGET_DISK' to confirm: " CONFIRMATION
 
-    if [[ "$CONFIRMAION" != "$TARGET_DISK" ]]; then 
+    if [[ "$CONFIRMATION" != "$TARGET_DISK" ]]; then 
         echo "Installation cancelled"
         exit 1
     fi
