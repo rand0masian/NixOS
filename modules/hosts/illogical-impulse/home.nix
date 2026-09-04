@@ -11,7 +11,11 @@
                 home-manager = {
                     useGlobalPkgs = true;
                     useUserPackages = true;
-                    extraSpecialArgs = { inherit inputs; };
+                    extraSpecialArgs = {
+                        inherit inputs;
+                        experimental = config.features.experimental.enable;
+                    };
+                    
                     users.randomasian = {
                         imports = [
                             self.homeModules.illogical-impulseHomeSymlinks
@@ -27,6 +31,7 @@
                             self.homeModules.qbittorrent
                             self.homeModules.dolphin
                             self.homeModules.end4-pCPlatform
+                            self.homeModules.experimental
                         ];
 
                         programs.home-manager = {
