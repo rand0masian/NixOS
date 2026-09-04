@@ -28,6 +28,9 @@ Current compositors:
 #### Core
 Core system files used for hosts.
 
+#### Experimental
+Experimental modules avaliable to hosts via opting in.
+
 #### Features
 Functionality available to platforms.
 
