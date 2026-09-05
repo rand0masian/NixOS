@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        nvidia = { config, pkgs, lib, ... }:
+        nvidia = { config, pkgs, ... }:
             {
                 nixpkgs.config = {
                     allowUnfree = true;
@@ -22,8 +22,8 @@
                     nvidia = {
                         modesetting.enable = true;
                         powerManagement.enable = false;
-                        open = true;
-                        forceFullCompositionPipeline = true;
+                        open = false;
+                        forceFullCompositionPipeline = false;
                         package = config.boot.kernelPackages.nvidiaPackages.stable;
                         nvidiaSettings = true;
                     };
@@ -51,7 +51,6 @@
                     sessionVariables = {
                         "NIXOS_OZONE_WL" = "1";
                         "__GLX_VENDOR_LIBRARY_NAME" = "nvidia";
-                        "LD_LIBRARY_PATH" = lib.mkForce "/run/opengl-driver/lib:/run/opengl-driver-32/lib";
                     };
 
                     systemPackages = with pkgs; [
