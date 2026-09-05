@@ -2,6 +2,15 @@
 
 ## [Unreleased]
 
+### - 2026-09-05
+
+#### Changed
+- Changed `/featues/nixos/nvidia.nix` to use propietary instead of open drivers.
+- Set `forceFullCompositionPipeline` to `false` in `/features/nixos/nvidia.nix`.
+
+#### Removed
+- Removed forced `LD_LIBRARY_PATH` from `/features/nixos/nvidia.nix`.
+
 ## [v0.3.0]
 
 ### - 2026-09-04
