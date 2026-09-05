@@ -4,6 +4,9 @@
 
 ### - 2026-09-05
 
+### Changed
+- Updated flake dependencies (`flake.lock`).
+
 #### Fixed
 - Corrected a typo in `CHANGELOG.md`.
 
