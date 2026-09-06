@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### - 2026-09-06
+
+#### Added
+- Added `LICENSE.md` to introduce the MIT license.
+
 ### - 2026-09-05
 
 ### Changed
