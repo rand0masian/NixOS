@@ -7,6 +7,9 @@
 #### Added
 - Added `LICENSE.md` to introduce the MIT license.
 
+#### Changed
+- Renamed `LICENSE.md` to `LICENSE` for raw text.
+
 ### - 2026-09-05
 
 ### Changed
