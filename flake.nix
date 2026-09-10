@@ -73,6 +73,11 @@
             };
         };
 
+        blapples-presets = {
+            url = "github:blapples/blapples.github.io";
+            flake = false;
+        };
+
         niri.url = "github:sodiboo/niri-flake";
         flake-parts.url = "github:hercules-ci/flake-parts";
         nix-wrapper-modules.url = "github:BirdeeHub/nix-wrapper-modules";

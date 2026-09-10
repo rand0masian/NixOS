@@ -11,6 +11,7 @@
                 home-manager = {
                     useGlobalPkgs = true;
                     useUserPackages = true;
+                    backupFileExtension = "backup";
                     extraSpecialArgs = {
                         inherit inputs;
                         experimental = config.features.experimental.enable;
@@ -24,12 +25,14 @@
                             self.homeModules.spicetify
                             self.homeModules.git
                             self.homeModules.protonvpn
-                            self.homeModules.vscode
+                            self.homeModules.vscodium
                             self.homeModules.kitty
                             self.homeModules.nautilus
                             self.homeModules.tor-browser
                             self.homeModules.qbittorrent
                             self.homeModules.dolphin
+                            self.homeModules.protonup-qt
+                            self.homeModules.handbrake
                             self.homeModules.end4-pCPlatform
                             self.homeModules.experimental
                         ];
