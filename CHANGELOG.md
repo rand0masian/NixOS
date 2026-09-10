@@ -5,6 +5,8 @@
 ### - 2026-09-10
 
 #### Added
+- Imported `presets.nix` into `end4-pCPlatform`.
+- Added `presets.nix` to input `blapples-presets` into end4-pC's dotfiles.
 - Added `blapples-presets` input (`flake.nix`).
 
 #### Changed
