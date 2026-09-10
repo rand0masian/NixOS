@@ -21,6 +21,8 @@
 #### Fixed
 - Fixed syntax highlighting, font and theme issues within `vscode` homeModule.
 
+#### Removed
+- Removed unusued legacy filemanagement nixosModules.
 
 ### - 2026-09-06
 
