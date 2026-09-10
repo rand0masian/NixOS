@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+
+## [v0.4.0]
+
 ### - 2026-09-10
 
 #### Added
@@ -40,6 +43,7 @@
 #### Fixed
 - Corrected a typo in `CHANGELOG.md`.
 
+
 ## [v0.3.1]
 
 ### - 2026-09-05
@@ -50,6 +54,7 @@
 
 #### Removed
 - Removed forced `LD_LIBRARY_PATH` from `/features/nixos/nvidia.nix`.
+
 
 ## [v0.3.0]
 
