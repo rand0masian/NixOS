@@ -5,6 +5,7 @@
 ### - 2026-09-10
 
 #### Added
+- Added declarative extensions within `vscode` homeModule.
 - Added handbrake via `/features/home-manager/handbrake.nix`.
 - Added protonup-qt via `/features/home-manager/protonup-qt.nix`
 - Imported `presets.nix` into `end4-pCPlatform`.
@@ -12,7 +13,13 @@
 - Added `blapples-presets` input (`flake.nix`).
 
 #### Changed
+- Renamed `vscode` module to `vscodium`.
+- Renamed `/features/home-manager/development/vscode.nix` to `/features/home-manager/development/vscodium.nix`.
+- Changed the package within the `vscode` homeModule to `vscodium`.
 - Updated flake dependencies (`flake.lock`).
+
+#### Fixed
+- Fixed syntax highlighting, font and theme issues within `vscode` homeModule.
 
 ### - 2026-09-06
 
