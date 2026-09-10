@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### - 2026-09-10
+
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+
 ### - 2026-09-06
 
 #### Added
