@@ -21,6 +21,7 @@
 #### Fixed
 - Fixed syntax highlighting, font and theme issues within `vscode` homeModule.
 
+
 ### - 2026-09-06
 
 #### Added
