@@ -12,7 +12,7 @@
 
 ### - 2026-09-05
 
-### Changed
+#### Changed
 - Updated flake dependencies (`flake.lock`).
 
 #### Fixed
