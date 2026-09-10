@@ -4,6 +4,9 @@
 
 ### - 2026-09-10
 
+#### Added
+- Added `blapples-presets` input (`flake.nix`).
+
 #### Changed
 - Updated flake dependencies (`flake.lock`).
 
