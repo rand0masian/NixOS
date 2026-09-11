@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+## [v0.4.1]
+
+### - 2026-09-11
+
+#### Changed
+- Replaced Nix IDE with bbenoist's nix within the `vscodium` homeModule.
+
+#### Fixed
+- Fixed the `end4-pC` input reverting to the original hyprland config via `tempconfig`.
+
 
 ## [v0.4.0]
 

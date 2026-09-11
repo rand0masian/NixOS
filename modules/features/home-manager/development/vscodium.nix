@@ -17,7 +17,7 @@
                         extensions = with pkgs.vscode-extensions; [
                             github.github-vscode-theme
                             catppuccin.catppuccin-vsc-icons
-                            jnoortheen.nix-ide
+                            bbenoist.nix
                         ];
 
                         userSettings = {
