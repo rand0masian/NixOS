@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### - 2026-09-11
+
+#### Changed
+- Replaced Nix IDE with bbenoist's nix within the `vscodium` homeModule.
+
 
 ## [v0.4.0]
 
