@@ -33,6 +33,7 @@
                             self.homeModules.dolphin
                             self.homeModules.protonup-qt
                             self.homeModules.handbrake
+                            self.homeModules.caelestiaPlatform
                         ];
 
                         programs.home-manager = {
