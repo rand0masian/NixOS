@@ -5,6 +5,8 @@
 ### 2026-09-13
 
 #### Added
+- Added `starship` homeModule.
+- Added `fish` homeModule.
 - Imported `caelestiaPlatform` into `caelestiaHome`.
 - Added `caelestiaPlatform`.
 - Added `caelestia-shell` input (`flake.nix`).
