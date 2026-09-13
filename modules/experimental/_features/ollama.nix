@@ -5,12 +5,7 @@
         services.ollama = {
             enable = true;
             package = pkgs.ollama-cuda;
-            loadModels = [
-                "qwen2.5-coder:7b"
-                "qwen2.5-coder:1.5b"
-                "nomic-embed-text"
-                "llama3.2-vision"
-            ];
+            loadModels = [];
 
             environmentVariables = {
                 OLLAMA_FLASH_ATTENTION = "1";
