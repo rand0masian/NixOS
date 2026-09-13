@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+### 2026-09-13
+
+#### Added
+- Added `caelestia-shell` input (`flake.nix`).
+- Added caelestia host.
+
+
 ## [v0.4.1]
 
 ### - 2026-09-11
