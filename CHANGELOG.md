@@ -14,6 +14,7 @@
 - Added caelestia host.
 
 #### Changed
+- Disabled experimental features within `illogical-impulseConfiguration` and `illogical-impulseHome`.
 - Renamed `tempmonitors.nix` to `tempconfig.nix`.
 
 #### Fixed
