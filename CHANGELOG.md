@@ -5,6 +5,7 @@
 ### 2026-09-13
 
 #### Added
+- Imported `caelestiaPlatform` into `caelestiaHome`.
 - Added `caelestiaPlatform`.
 - Added `caelestia-shell` input (`flake.nix`).
 - Added caelestia host.
