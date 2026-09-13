@@ -2,7 +2,7 @@
 
 {
     flake.nixosModules = {
-        illogical-impulseHome = { config, pkgs, ... }:
+        caelestiaHome = { config, pkgs, ... }:
             {
                 imports = [
                     inputs.home-manager.nixosModules.home-manager
@@ -19,7 +19,7 @@
                     
                     users.randomasian = {
                         imports = [
-                            self.homeModules.illogical-impulseHomeSymlinks
+                            self.homeModules.caelestiaHomeSymlinks
                             self.homeModules.zen-browser
                             self.homeModules.flatpak
                             self.homeModules.spicetify
@@ -33,7 +33,9 @@
                             self.homeModules.dolphin
                             self.homeModules.protonup-qt
                             self.homeModules.handbrake
-                            self.homeModules.end4-pCPlatform
+                            self.homeModules.fish
+                            self.homeModules.starship
+                            self.homeModules.caelestiaPlatform
                         ];
 
                         programs.home-manager = {

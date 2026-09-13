@@ -2,6 +2,27 @@
 
 ## [Unreleased]
 
+### 2026-09-13
+
+#### Added
+- Imported `fish` and `starship` into `caelestiaHome`.
+- Added `starship` homeModule.
+- Added `fish` homeModule.
+- Imported `caelestiaPlatform` into `caelestiaHome`.
+- Added `caelestiaPlatform`.
+- Added `caelestia-shell` input (`flake.nix`).
+- Added caelestia host.
+
+#### Changed
+- Updated `architecture.md` to document both the caelestia host and `caelestiaPlatform`.
+- Disabled experimental features within `illogical-impulseConfiguration` and `illogical-impulseHome`.
+- Renamed `tempmonitors.nix` to `tempconfig.nix`.
+
+#### Fixed
+- Corrected temporary hyprland configuration file name within `tempconfig.nix`.
+- Corrected module name within `end4-pCPlatform`.
+
+
 ## [v0.4.1]
 
 ### - 2026-09-11
