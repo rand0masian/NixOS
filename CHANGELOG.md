@@ -13,6 +13,13 @@
 - Added `caelestia-shell` input (`flake.nix`).
 - Added caelestia host.
 
+#### Changed
+- Renamed `tempmonitors.nix` to `tempconfig.nix`.
+
+#### Fixed
+- Corrected temporary hyprland configuration file name within `tempconfig.nix`.
+- Corrected module name within `end4-pCPlatform`.
+
 
 ## [v0.4.1]
 
