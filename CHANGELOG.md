@@ -5,6 +5,7 @@
 ### 2026-09-13
 
 #### Added
+- Imported `fish` and `starship` into `caelestiaHome`.
 - Added `starship` homeModule.
 - Added `fish` homeModule.
 - Imported `caelestiaPlatform` into `caelestiaHome`.
