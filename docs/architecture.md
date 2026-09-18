@@ -31,6 +31,9 @@ Core system files used for hosts.
 #### Experimental
 Experimental modules avaliable to hosts via opting in.
 
+
+[Explore the selection and how to enable `experimentalModules`.](docs/experimentalFeatures)
+
 #### Features
 Functionality available to platforms.
 
@@ -40,7 +43,7 @@ Deployable machines.
 Current hosts:
 - noctalia
 - illogical-impulse
-- caelestia
+- caelestia (experimental)
 
 #### Overrides
 Exposes compatibility aliases via overlays.
@@ -54,7 +57,7 @@ Desktop environments.
 Current platforms:
 - noctalia
 - end4-pC
-- caelestia
+- caelestia (experimental)
 
 ### Secrets
 Conceals sensitive information when pushed to the repository.
