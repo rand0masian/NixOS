@@ -40,7 +40,7 @@ Deployable machines.
 Current hosts:
 - noctalia
 - illogical-impulse
-- caelestia
+- caelestia (experimental)
 
 #### Overrides
 Exposes compatibility aliases via overlays.
@@ -54,7 +54,7 @@ Desktop environments.
 Current platforms:
 - noctalia
 - end4-pC
-- caelestia
+- caelestia (experimental)
 
 ### Secrets
 Conceals sensitive information when pushed to the repository.

@@ -8,6 +8,7 @@
 - Added `eamodio.gitlens` extension to `vscodium` homeModule.
 
 #### Changed
+- Updated `architecture.md` to note that caelestia is experimental.
 - [Breaking] Converted both the caelestia host and caelestia platform to `experimentalModules`, therefore the platform is disabled by default and requires enabiling.
 
 ### 2026-09-13
