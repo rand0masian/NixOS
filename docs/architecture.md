@@ -31,6 +31,9 @@ Core system files used for hosts.
 #### Experimental
 Experimental modules avaliable to hosts via opting in.
 
+
+[Explore the selection and how to enable `experimentalModules`.](docs/experimentalFeatures)
+
 #### Features
 Functionality available to platforms.
 
