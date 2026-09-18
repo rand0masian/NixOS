@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-09-19
+
+#### Fixed
+- Corrected unnecessary space in `experimentalFeatures.md`.
+- Fixed the link to `experimentalFeatures.md` in `architecture.md`.
 
 ## [v0.5.0]
 

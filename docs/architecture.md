@@ -32,7 +32,7 @@ Core system files used for hosts.
 Experimental modules avaliable to hosts via opting in.
 
 
-[Explore the selection and how to enable `experimentalModules`.](docs/experimentalFeatures)
+[Explore the selection and how to enable `experimentalModules`.](experimentalFeatures)
 
 #### Features
 Functionality available to platforms.
