@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-09-18
+
+#### Added
+- Added `eamodio.gitlens` extension to `vscodium` homeModule.
+
 ### 2026-09-13
 
 #### Added
