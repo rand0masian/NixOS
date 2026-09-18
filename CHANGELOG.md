@@ -5,6 +5,7 @@
 ### 2026-09-19
 
 #### Fixed
+- Fixed `experimentalFeatures.md` link in `architecture.md` by adding the `.md` extension.
 - Corrected unnecessary space in `experimentalFeatures.md`.
 - Fixed the link to `experimentalFeatures.md` in `architecture.md`.
 
