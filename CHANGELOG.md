@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-09-18
+
+#### Added
+- Added `eamodio.gitlens` extension to `vscodium` homeModule.
+
 ### 2026-09-13
 
 #### Added
@@ -14,6 +19,7 @@
 - Added caelestia host.
 
 #### Changed
+- Removed `loadModules` list from the ollama `experimentalModule`.
 - Updated `architecture.md` to document both the caelestia host and `caelestiaPlatform`.
 - Disabled experimental features within `illogical-impulseConfiguration` and `illogical-impulseHome`.
 - Renamed `tempmonitors.nix` to `tempconfig.nix`.
