@@ -18,6 +18,7 @@
                             github.github-vscode-theme
                             catppuccin.catppuccin-vsc-icons
                             bbenoist.nix
+                            eamodio.gitlens
                         ];
 
                         userSettings = {

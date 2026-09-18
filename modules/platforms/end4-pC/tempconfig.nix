@@ -7,7 +7,7 @@
                 home.activation = {
                     tempmonitors = config.lib.dag.entryAfter [ "writeBoundary" ] ''
                         monitorsSource="$HOME/.config/hypr/custom/general.lua"
-                        monitorsTarget="${./tempmonitors.lua}"
+                        monitorsTarget="${./tempconfig.lua}"
                         if [ -f "$monitorsTarget" ]; then
                             $DRY_RUN_CMD mkdir -p "$HOME/.config/hypr/custom"
                             $DRY_RUN_CMD rm -f "$monitorsSource"

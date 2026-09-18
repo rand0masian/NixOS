@@ -34,7 +34,6 @@
                             self.homeModules.protonup-qt
                             self.homeModules.handbrake
                             self.homeModules.end4-pCPlatform
-                            self.homeModules.experimental
                         ];
 
                         programs.home-manager = {
