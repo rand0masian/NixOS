@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-09-19
+
+#### Fixed
+- Removed unnecessary feature gate to the caelestia host `experimentalModule`, alongside separating it from `experimentalNixOS`, importing it instead so it can be inherited by `flake.experimentalModules.nixos`.
+
 
 ## [v0.5.1]
 

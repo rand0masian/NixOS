@@ -1,30 +1,27 @@
-{ config, pkgs, lib, ... }:
+{ self, inputs, ... }:
 
 {
-    imports = [
-        ../../../options.nix
-    ];
+    flake.nixosConfigurations = {
+        caelestia = inputs.nixpkgs.lib.nixosSystem {
+            system = "x86_64-linux";
+            specialArgs = { inherit self inputs; };
 
-    config = lib.mkIf config.features.experimental.enable {
-        flake.nixosConfigurations = {
-            calestia = inputs.nixpkgs.lib.nixosSystem {
-                system = "x86_64-linux";
-                modules = [
-                    {
-                        nixpkgs = {
-                            overlays = [
-                                self.overlays.neo-zen
-                                self.overlays.wallpapers
-                                self.overlays.pfps
-                            ];
+            modules = [
+                {
+                    nixpkgs = {
+                        overlays = [
+                            self.overlays.neo-zen
+                            self.overlays.wallpapers
+                            self.overlays.pfps
+                        ];
 
-                            config.allowUnfree = true;
-                        };
-                    }
+                        config.allowUnfree = true;
+                    };
+                }
 
-                    ./configuration.nix
-                ];
-            };
+                ./configuration.nix
+                self.nixosModules.experimental
+            ];
         };
     };
 }

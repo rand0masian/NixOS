@@ -1,8 +1,9 @@
 { self, inputs, lib, ... }:
 
 let 
+    caelestiaHost = ./_hosts/caelestia/default.nix;
+
     experimentalNixos = {
-        calestiaHost = ./_hosts/caelestia/default.nix;
         open-webGui = ./_features/open-webgui.nix;
         ollama = ./_features/ollama.nix;
     };
@@ -13,8 +14,12 @@ let
     };
 in 
 {
+    imports = [
+        caelestiaHost
+    ];
+
     flake.experimentalModules = {
-        nixos = experimentalNixos;
+        nixos = experimentalNixos // { inherit caelestiaHost; };
         home = experimentalHome;
     };
 
