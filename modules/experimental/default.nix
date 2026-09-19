@@ -18,22 +18,20 @@ in
         caelestiaHost
     ];
 
-    flake.experimentalModules = {
-        nixos = experimentalNixos // { inherit caelestiaHost; };
-        home = experimentalHome;
-    };
+    flake = {
+        experimentalModules = {
+            nixos = experimentalNixos // { inherit caelestiaHost; };
+            home = experimentalHome;
+        };
 
-    flake.nixosModules = {
-        experimental = { ... }:
+        nixosModules.experimental = { ... }:
             {
                 imports = [
                     ./options.nix
                 ] ++ builtins.attrValues experimentalNixos;
             };
-    };
-
-    flake.homeModules = {
-        experimental = { ... }:
+        
+        homeModules.experimental = { ... }:
             {
                 imports = builtins.attrValues experimentalHome;
             };
