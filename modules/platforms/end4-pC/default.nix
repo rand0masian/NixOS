@@ -7,6 +7,8 @@
                 imports = [
                     self.homeModules.illogical-impulse
                     self.homeModules.end4-pC
+                    self.homeModules.presets
+                    self.homeModules.tempconfig
                 ];
             };
     };

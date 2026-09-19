@@ -6,6 +6,7 @@
             {
                 fonts = {
                     fontconfig.enable = true;
+                    fontDir.enable = true;
                     packages = with pkgs; [
                         noto-fonts 
                         noto-fonts-cjk-sans 
@@ -13,6 +14,7 @@
                         rubik
                         nerd-fonts.ubuntu
                         nerd-fonts.jetbrains-mono
+                        maple-mono.truetype
                     ];
                 };
             };

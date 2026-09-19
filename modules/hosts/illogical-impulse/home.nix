@@ -11,20 +11,28 @@
                 home-manager = {
                     useGlobalPkgs = true;
                     useUserPackages = true;
-                    extraSpecialArgs = { inherit inputs; };
+                    backupFileExtension = "backup";
+                    extraSpecialArgs = {
+                        inherit inputs;
+                        experimental = config.features.experimental.enable;
+                    };
+                    
                     users.randomasian = {
                         imports = [
+                            self.homeModules.illogical-impulseHomeSymlinks
                             self.homeModules.zen-browser
                             self.homeModules.flatpak
                             self.homeModules.spicetify
                             self.homeModules.git
                             self.homeModules.protonvpn
-                            self.homeModules.vscode
+                            self.homeModules.vscodium
                             self.homeModules.kitty
                             self.homeModules.nautilus
                             self.homeModules.tor-browser
                             self.homeModules.qbittorrent
                             self.homeModules.dolphin
+                            self.homeModules.protonup-qt
+                            self.homeModules.handbrake
                             self.homeModules.end4-pCPlatform
                         ];
 

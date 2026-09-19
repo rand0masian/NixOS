@@ -2,7 +2,7 @@
 
 {
     flake.homeModules = {
-        hyprlandCureneMonitors = { config, ... }:
+        hyprlandEnd4-pCMonitors = { config, ... }:
             {
                 wayland.windowManager = {
                     hyprland.settings = {

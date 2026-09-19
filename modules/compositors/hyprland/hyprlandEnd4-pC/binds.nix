@@ -2,15 +2,15 @@
 
 {
     flake.homeModules = {
-        hyprlandCureneBinds = { config, ... }:
+        hyprlandEnd4-pCBinds = { config, ... }:
             {
                 wayland.windowManager = {
                     hyprland.settings = {
                         "$mod" = "SUPER";
                         bind = [
-                            "$mod, T, exec, kitty"
-                            "$mod, C, exec, vscode"
+                            "$mod, T, exec, foot"
                             "$mod, W, exec, zen-twilight"
+                            "$mod, C, exec, code"
                             "$mod, E, exec, nautilus"
                             "$mod, S, exec, spotify"
                         ];
