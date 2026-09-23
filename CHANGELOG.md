@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-09-23
+
+#### Added
+- Added environment options to `openweb-gui.nix`. 
+
 ### 2026-09-19
 
 #### Fixed
