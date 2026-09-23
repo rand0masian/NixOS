@@ -2,10 +2,21 @@
 
 ## [Unreleased]
 
+### 2026-09-24
+
+#### Added
+- Added a selection of models to preload within `ollama.nix`; including `qwen2.5-coder:7b`, `rfsousa/qwen2.5vl:tools`, `qwen2.5-coder:1.5b` and `nomic-embed-text`. 
+
+#### Changed
+- Increased a model's alive time to 30 minutes and disabled the maximum limit on loaded models within the ollama experimentalModule.
+
+#### Fixed
+- Corrected module name in `CHANGELOG.md`.
+
 ### 2026-09-23
 
 #### Added
-- Added environment options to `openweb-gui.nix`. 
+- Added environment options to open-webui `experimentalModule`.
 
 ### 2026-09-19
 
