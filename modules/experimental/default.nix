@@ -12,6 +12,10 @@ let
         caelestiaPlatform = ./_platforms/caelestia/default.nix;
         symlinks.nix = ./_hosts/caelestia/symlinks.nix;
     };
+
+    experimentalOverlays = {
+        ollama-cuda = import ./_pkgs/ollama-cuda.nix { inherit inputs; };
+    };
 in 
 {
     imports = [
@@ -22,12 +26,14 @@ in
         experimentalModules = {
             nixos = experimentalNixos // { inherit caelestiaHost; };
             home = experimentalHome;
+            overlays = experimentalOverlays;
         };
 
         nixosModules.experimental = { ... }:
             {
                 imports = [
                     ./options.nix
+                    ./_overlays.nix
                 ] ++ builtins.attrValues experimentalNixos;
             };
         

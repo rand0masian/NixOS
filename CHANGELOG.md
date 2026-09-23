@@ -5,6 +5,7 @@
 ### 2026-09-24
 
 #### Added
+- Added overlays to `experimentalModules`, alongside importing the ollama-cuda package within it.
 - Added ollama-cuda `experimentalModule`, alongside introducing the experimental `_pkgs` directory.
 - Added nix-community cache and trusted public key to the `settings` nixosModule.
 - Added `nixpkgs-ollama` input (`flake.nix`).
