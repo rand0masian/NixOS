@@ -5,6 +5,7 @@
 ### 2026-09-24
 
 #### Added
+- Added ollama-cuda `experimentalModule`, alongside introducing the experimental `_pkgs` directory.
 - Added nix-community cache and trusted public key to the `settings` nixosModule.
 - Added `nixpkgs-ollama` input (`flake.nix`).
 - Added `specialArgs` to illogical-impulse's `default.nix`.
