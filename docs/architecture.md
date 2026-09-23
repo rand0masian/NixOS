@@ -45,9 +45,6 @@ Current hosts:
 - illogical-impulse
 - caelestia (experimental)
 
-#### Overrides
-Exposes compatibility aliases via overlays.
-
 #### Packages
 Package definitions used by overlays.
 
