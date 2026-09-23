@@ -5,6 +5,7 @@
 ### 2026-09-24
 
 #### Added
+- Added nix-community cache and trusted public key to the `settings` nixosModule.
 - Added `nixpkgs-ollama` input (`flake.nix`).
 - Added `specialArgs` to illogical-impulse's `default.nix`.
 - Added a selection of models to preload within `ollama.nix`; including `qwen2.5-coder:7b`, `rfsousa/qwen2.5vl:tools`, `qwen2.5-coder:1.5b` and `nomic-embed-text`. 
