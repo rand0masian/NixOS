@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-09-24
+
+#### Changed
+- Renamed `open-webgui.nix` to `open-webui.nix`.
+
 
 ## [v0.6.0]
 

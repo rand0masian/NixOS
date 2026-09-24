@@ -4,7 +4,7 @@ let
     caelestiaHost = ./_hosts/caelestia/default.nix;
 
     experimentalNixos = {
-        open-webGui = ./_features/open-webgui.nix;
+        open-webui = ./_features/open-webui.nix;
         ollama = ./_features/ollama.nix;
     };
 
