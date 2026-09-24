@@ -1,8 +1,9 @@
 { self, inputs, lib, ... }:
 
 let 
+    caelestiaHost = ./_hosts/caelestia/default.nix;
+
     experimentalNixos = {
-        calestiaHost = ./_hosts/caelestia/default.nix;
         open-webGui = ./_features/open-webgui.nix;
         ollama = ./_features/ollama.nix;
     };
@@ -11,24 +12,32 @@ let
         caelestiaPlatform = ./_platforms/caelestia/default.nix;
         symlinks.nix = ./_hosts/caelestia/symlinks.nix;
     };
+
+    experimentalOverlays = {
+        ollama-cuda = import ./_pkgs/ollama-cuda.nix { inherit inputs; };
+    };
 in 
 {
-    flake.experimentalModules = {
-        nixos = experimentalNixos;
-        home = experimentalHome;
-    };
+    imports = [
+        caelestiaHost
+    ];
 
-    flake.nixosModules = {
-        experimental = { ... }:
+    flake = {
+        experimentalModules = {
+            nixos = experimentalNixos // { inherit caelestiaHost; };
+            home = experimentalHome;
+            overlays = experimentalOverlays;
+        };
+
+        nixosModules.experimental = { ... }:
             {
                 imports = [
                     ./options.nix
+                    ./_overlays.nix
                 ] ++ builtins.attrValues experimentalNixos;
             };
-    };
-
-    flake.homeModules = {
-        experimental = { ... }:
+        
+        homeModules.experimental = { ... }:
             {
                 imports = builtins.attrValues experimentalHome;
             };

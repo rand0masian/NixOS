@@ -8,6 +8,10 @@
     config.flake = {
         nixosConfigurations.illogical-impulse = inputs.nixpkgs.lib.nixosSystem {
             system = "x86_64-linux";
+            specialArgs = {
+                inherit self inputs;
+            };
+
             modules = [
                 {
                     nixpkgs = {

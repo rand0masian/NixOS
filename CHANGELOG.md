@@ -3,6 +3,41 @@
 ## [Unreleased]
 
 
+## [v0.6.0]
+
+### 2026-09-24
+
+#### Added
+- Added overlays to `experimentalModules`, alongside importing the ollama-cuda package within it.
+- Added ollama-cuda `experimentalModule`, alongside introducing the experimental `_pkgs` directory.
+- Added nix-community cache and trusted public key to the `settings` nixosModule.
+- Added `nixpkgs-ollama` input (`flake.nix`).
+- Added `specialArgs` to illogical-impulse's `default.nix`.
+- Added a selection of models to preload within `ollama.nix`; including `qwen2.5-coder:7b`, `rfsousa/qwen2.5vl:tools`, `qwen2.5-coder:1.5b` and `nomic-embed-text`. 
+
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+- Updated `architecture.md` to remove the overrides section.
+- Relocated `gnome-adwaita` to `pkgs` directory.
+- Increased a model's alive time to 30 minutes and disabled the maximum limit on loaded models within the ollama experimentalModule.
+
+#### Fixed
+- Corrected module name in `CHANGELOG.md`.
+
+#### Removed
+- Removed `overrides` directory.
+
+### 2026-09-23
+
+#### Added
+- Added environment options to open-webui `experimentalModule`.
+
+### 2026-09-19
+
+#### Fixed
+- Removed unnecessary feature gate to the caelestia host `experimentalModule`, alongside separating it from `experimentalNixOS`, importing it instead so it can be inherited by `flake.experimentalModules.nixos`.
+
+
 ## [v0.5.1]
 
 ### 2026-09-19
@@ -11,6 +46,7 @@
 - Fixed `experimentalFeatures.md` link in `architecture.md` by adding the `.md` extension.
 - Corrected unnecessary space in `experimentalFeatures.md`.
 - Fixed the link to `experimentalFeatures.md` in `architecture.md`.
+
 
 ## [v0.5.0]
 
