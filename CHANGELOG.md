@@ -13,6 +13,7 @@
 - Added a selection of models to preload within `ollama.nix`; including `qwen2.5-coder:7b`, `rfsousa/qwen2.5vl:tools`, `qwen2.5-coder:1.5b` and `nomic-embed-text`. 
 
 #### Changed
+- Updated flake dependencies (`flake.lock`).
 - Updated `architecture.md` to remove the overrides section.
 - Relocated `gnome-adwaita` to `pkgs` directory.
 - Increased a model's alive time to 30 minutes and disabled the maximum limit on loaded models within the ollama experimentalModule.
