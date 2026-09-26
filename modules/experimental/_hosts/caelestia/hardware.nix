@@ -7,7 +7,7 @@
 
     boot = {
         initrd = {
-            avaliableKernalModules = [
+            availableKernelModules = [
                 "vmd"
                 "xhci_pci"
                 "ahci"

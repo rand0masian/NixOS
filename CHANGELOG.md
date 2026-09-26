@@ -8,6 +8,7 @@
 - CI workflow to run `nix flake check` on pushes and pull requests.
 
 #### Fixed
+- Corrected typo in caelestia's `hardware.nix` experimentalModule. 
 - Removed stale `self.homeModules.fileExtraction` import in `noctaliaConfiguration` from a removed `fileExtraction` homeModule. 
 
 ### 2026-09-24
