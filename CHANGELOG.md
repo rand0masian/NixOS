@@ -5,6 +5,7 @@
 ### 2026-09-26
 
 #### Added
+- Added `codex` homeModule.
 - Added `codex` input (`flake.nix`).
 - CI workflow to run `nix flake check` on pushes and pull requests.
 
