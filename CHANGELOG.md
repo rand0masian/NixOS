@@ -8,6 +8,7 @@
 - CI workflow to run `nix flake check` on pushes and pull requests.
 
 #### Fixed
+- Relocated feature gate from caelestia platform's `default.nix` to `caelestia-shell.nix`.
 - Fixed accidental nested attrset caused by dotted key `symlinks.nix` in experimental's `default.nix`.
 - Corrected import path to in caelestia host's `home.nix` experimentalModule.
 - Corrected syntax error in caelestia platform's `default.nix` experimentalModule.
