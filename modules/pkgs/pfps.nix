@@ -15,19 +15,8 @@
         };
     };
 
-    perSystem = { config, system, ... }:
+    perSystem = { config, pkgs, ... }:
         {
-            _module.args = {
-                pkgs = import inputs.nixpkgs {
-                    inherit system;
-                    overlays = [
-                        self.overlays.pfps
-                    ];
-
-                    config.allowUnfree = true;
-                };
-            };
-
-            packages.pfps = config._module.args.pkgs.pfps;
+            packages.pfps = pkgs.pfps;
         };
 }

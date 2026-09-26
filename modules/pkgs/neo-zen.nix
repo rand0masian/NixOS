@@ -15,19 +15,8 @@
         };
     };
 
-    perSystem = { config, system, ... }:
+    perSystem = { config, pkgs, ... }:
         {
-            _module.args = {
-                pkgs = import inputs.nixpkgs {
-                    inherit system;
-                    overlays = [
-                        self.overlays.neo-zen
-                    ];
-
-                    config.allowUnfree = true;
-                };
-            };
-
-            packages.neo-zen = config._module.args.pkgs.neo-zen;
+            packages.neo-zen = pkgs.neo-zen;
         };
 }

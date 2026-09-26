@@ -8,6 +8,7 @@
 - CI workflow to run `nix flake check` on pushes and pull requests.
 
 #### Fixed
+- Added a central `perSystem` module for `pkgs`. 
 - Corrected typo in caelestia platform's `caelestia-shell.nix` experimentalModule.
 - Corrected typo in caelestia platform's `caelestia-shell.nix` experimentalModule.
 - Corrected filename and extension of an import in caelestia platform's `default.nix`.
