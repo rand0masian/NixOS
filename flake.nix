@@ -86,6 +86,7 @@
             };
         };
 
+        codex.url = "github:ilysenko/codex-desktop-linux";
         niri.url = "github:sodiboo/niri-flake";
         flake-parts.url = "github:hercules-ci/flake-parts";
         nix-wrapper-modules.url = "github:BirdeeHub/nix-wrapper-modules";
