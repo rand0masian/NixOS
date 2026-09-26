@@ -1,7 +1,7 @@
 { experimental, config, lib, ... }:
 
 {
-    config = lib.mkIf experimental = {
+    config = lib.mkIf experimental {
         imports = [
             ./calestia-shell
         ];
