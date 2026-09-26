@@ -15,19 +15,8 @@
         };
     };
 
-    perSystem = { config, system, ... }:
+    perSystem = { config, pkgs, ... }:
         {
-            _module.args = {
-                pkgs = import inputs.nixpkgs {
-                    inherit system;
-                    overlays = [
-                        self.overlays.wallpapers
-                    ];
-
-                    config.allowUnfree = true;
-                };
-            };
-
-            packages.wallpapers = config._module.args.pkgs.wallpapers;
+            packages.wallpapers = pkgs.wallpapers;
         };
 }
