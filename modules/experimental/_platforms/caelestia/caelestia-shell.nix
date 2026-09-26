@@ -2,7 +2,7 @@
 
 {
     imports = [
-        inputs.caelestia-shell.homeManagerModule.default
+        inputs.caelestia-shell.homeManagerModules.default
     ];
 
     config = lib.mkIf experimental {
