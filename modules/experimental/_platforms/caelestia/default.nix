@@ -2,6 +2,6 @@
 
 {
     imports = [
-        ./calestia-shell
+        ./caelestia-shell.nix
     ];
 }
