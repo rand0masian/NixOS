@@ -5,6 +5,7 @@
 ### 2026-09-26
 
 #### Added
+- Added `AGENTS.md` to inform Agents of the repository's style and formatting conventions. 
 - Added `codex` to `illogical-impulseHome`.
 - Added `codex` homeModule.
 - Added `codex` input (`flake.nix`).
