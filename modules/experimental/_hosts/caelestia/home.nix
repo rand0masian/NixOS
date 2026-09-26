@@ -6,7 +6,7 @@
     ];
 
     home-manager = {
-        useGloballPkgs = true;
+        useGlobalPkgs = true;
         useUserPackages = true;
         backupFileExtension = "backup";
         extraSpecialArgs = {
