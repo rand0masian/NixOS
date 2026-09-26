@@ -7,19 +7,8 @@
         });
     };
 
-    perSystem = { config, system, ... }:
+    perSystem = { config, pkgs, ... }:
         {
-            _module.args = {
-                pkgs = import inputs.nixpkgs {
-                    inherit system;
-                    overlays = [
-                        self.overlays.gnome-adwaita
-                    ];
-
-                    config.allowUnfree = true;
-                };
-            };
-
-            packages.gnome-adwaita = config._module.args.pkgs.gnome-icon-theme;
+            packages.gnome-adwaita = pkgs.gnome-icon-theme;
         };
 }

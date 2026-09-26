@@ -4,13 +4,13 @@ let
     caelestiaHost = ./_hosts/caelestia/default.nix;
 
     experimentalNixos = {
-        open-webGui = ./_features/open-webgui.nix;
+        open-webui = ./_features/open-webui.nix;
         ollama = ./_features/ollama.nix;
     };
 
     experimentalHome = {
         caelestiaPlatform = ./_platforms/caelestia/default.nix;
-        symlinks.nix = ./_hosts/caelestia/symlinks.nix;
+        caelestiaHomeSymlinks = ./_hosts/caelestia/symlinks.nix;
     };
 
     experimentalOverlays = {

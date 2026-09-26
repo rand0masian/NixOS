@@ -11,7 +11,6 @@
                     self.nixosModules.nvidia
                     self.nixosModules.niri
                     self.nixosModules.flatpak
-                    self.nixosModules.fileExtraction
                     self.nixosModules.noctaliaHome
                     self.nixosModules.ssh
                     self.nixosModules.agenix

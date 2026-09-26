@@ -3,6 +3,39 @@
 ## [Unreleased]
 
 
+## [v0.7.0]
+
+### 2026-09-26
+
+#### Added
+- Added `AGENTS.md` to inform Agents of the repository's style and formatting conventions. 
+- Added `codex` to `illogical-impulseHome`.
+- Added `codex` homeModule.
+- Added `codex` input (`flake.nix`).
+- CI workflow to run `nix flake check` on pushes and pull requests.
+
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+
+#### Fixed
+- Added a central `perSystem` module for `pkgs`. 
+- Corrected typo in caelestia platform's `caelestia-shell.nix` experimentalModule.
+- Corrected typo in caelestia platform's `caelestia-shell.nix` experimentalModule.
+- Corrected filename and extension of an import in caelestia platform's `default.nix`.
+- Relocated feature gate from caelestia platform's `default.nix` to `caelestia-shell.nix`.
+- Fixed accidental nested attrset caused by dotted key `symlinks.nix` in experimental's `default.nix`.
+- Corrected import path to in caelestia host's `home.nix` experimentalModule.
+- Corrected syntax error in caelestia platform's `default.nix` experimentalModule.
+- Corrected typo in caelestia's `home.nix` experimentalModule.
+- Corrected typo in caelestia's `hardware.nix` experimentalModule. 
+- Removed stale `self.homeModules.fileExtraction` import in `noctaliaConfiguration` from a removed `fileExtraction` homeModule. 
+
+### 2026-09-24
+
+#### Changed
+- Renamed `open-webgui.nix` to `open-webui.nix`.
+
+
 ## [v0.6.0]
 
 ### 2026-09-24

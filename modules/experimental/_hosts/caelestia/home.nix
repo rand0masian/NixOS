@@ -6,7 +6,7 @@
     ];
 
     home-manager = {
-        useGloballPkgs = true;
+        useGlobalPkgs = true;
         useUserPackages = true;
         backupFileExtension = "backup";
         extraSpecialArgs = {
@@ -33,7 +33,7 @@
                 self.homeModules.starship
                 self.homeModules.experimental
 
-                ../../platforms/caelestia/default.nix
+                ../../_platforms/caelestia/default.nix
             ];
 
             programs.home-manager = {
