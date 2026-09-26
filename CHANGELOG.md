@@ -11,6 +11,9 @@
 - Added `codex` input (`flake.nix`).
 - CI workflow to run `nix flake check` on pushes and pull requests.
 
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+
 #### Fixed
 - Added a central `perSystem` module for `pkgs`. 
 - Corrected typo in caelestia platform's `caelestia-shell.nix` experimentalModule.
