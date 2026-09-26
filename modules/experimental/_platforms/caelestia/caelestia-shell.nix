@@ -6,7 +6,7 @@
     ];
 
     config = lib.mkIf experimental {
-        programs.calestia = {
+        programs.caelestia = {
             enable = true;
             settings = {
                 bar.statusIcons = [
