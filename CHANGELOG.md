@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-09-26
+
+#### Added
+- CI workflow to run `nix flake check` on pushes and pull requests.
+
 ### 2026-09-24
 
 #### Changed
