@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-10-01
+
+#### Added
+- [Experimental] Added serpantinum host. 
+
 
 ## [v0.8.0]
 
