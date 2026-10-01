@@ -3,6 +3,24 @@
 ## [Unreleased]
 
 
+## [v0.8.0]
+
+### 2026-10-01
+
+#### Added
+- Added the operagx package to the `flatpak` homeModule.
+- Added the `operagx` input (`flake.nix`).
+- Imported `renpy` homeModule to `illogical-impulseHome`.
+- Added the `luquedaniel.languague-renpy` extension within `vscodium`.
+- Added `nix-vscode-extensions` input (`flake.nix`).
+
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+
+#### Removed
+- Removed `operagx` input (`flake.nix`) due to dependency errors.
+
+
 ## [v0.7.0]
 
 ### 2026-09-26

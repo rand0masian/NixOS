@@ -33,6 +33,7 @@
                         "com.interversehq.qView"
                         "org.gnome.gitlab.YaLTeR.VideoTrimmer"
                         "com.usebottles.bottles"
+                        "com.opera.opera-gx"
                     ];
 
                     overrides = {

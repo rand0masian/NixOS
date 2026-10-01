@@ -86,6 +86,7 @@
             };
         };
 
+        nix-vscode-extensions.url = "github:nix-community/nix-vscode-extensions";
         codex.url = "github:ilysenko/codex-desktop-linux";
         niri.url = "github:sodiboo/niri-flake";
         flake-parts.url = "github:hercules-ci/flake-parts";

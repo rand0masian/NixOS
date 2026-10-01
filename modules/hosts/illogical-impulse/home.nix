@@ -34,6 +34,7 @@
                             self.homeModules.protonup-qt
                             self.homeModules.handbrake
                             self.homeModules.codex
+                            self.homeModules.renpy
                             self.homeModules.end4-pCPlatform
                         ];
 
