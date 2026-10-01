@@ -5,6 +5,7 @@
 ### 2026-10-01
 
 #### Added
+- Added the operagx package to the `flatpak` homeModule.
 - Added the `operagx` input (`flake.nix`).
 - Imported `renpy` homeModule to `illogical-impulseHome`.
 - Added the `luquedaniel.languague-renpy` extension within `vscodium`. 
