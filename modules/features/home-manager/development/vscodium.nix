@@ -19,6 +19,7 @@
                             catppuccin.catppuccin-vsc-icons
                             bbenoist.nix
                             eamodio.gitlens
+                            inputs.nix-vscode-extensions.extensions.${pkgs.system}.open-vsx.luquedaniel.languague-renpy
                         ];
 
                         userSettings = {
