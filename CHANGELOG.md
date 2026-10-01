@@ -5,6 +5,7 @@
 ### 2026-10-01
 
 #### Added
+- Added the `operagx` input (`flake.nix`).
 - Imported `renpy` homeModule to `illogical-impulseHome`.
 - Added the `luquedaniel.languague-renpy` extension within `vscodium`. 
 - Added `nix-vscode-extensions` input (`flake.nix`).
