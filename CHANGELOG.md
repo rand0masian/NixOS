@@ -13,6 +13,9 @@
 #### Changed
 - Updated flake dependencies (`flake.lock`).
 
+#### Removed
+- Removed `operagx` input (`flake.nix`) due to dependency errors.
+
 
 ## [v0.7.0]
 

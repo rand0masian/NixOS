@@ -86,13 +86,6 @@
             };
         };
 
-        operagx = {
-            url = "github:yisuidenghua/opera-flake";
-            inputs = {
-                nixpkgs.follows = "nixpkgs";
-            };
-        };
-
         nix-vscode-extensions.url = "github:nix-community/nix-vscode-extensions";
         codex.url = "github:ilysenko/codex-desktop-linux";
         niri.url = "github:sodiboo/niri-flake";
