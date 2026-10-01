@@ -9,6 +9,9 @@
 - Added the `luquedaniel.languague-renpy` extension within `vscodium`. 
 - Added `nix-vscode-extensions` input (`flake.nix`).
 
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+
 
 ## [v0.7.0]
 
