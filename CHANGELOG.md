@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-10-01
+
+#### Added
+- Added `nix-vscode-extensions` input (`flake.nix`).
+
 
 ## [v0.7.0]
 
