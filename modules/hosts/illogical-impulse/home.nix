@@ -35,6 +35,7 @@
                             self.homeModules.handbrake
                             self.homeModules.codex
                             self.homeModules.renpy
+                            self.homeModules.blender
                             self.homeModules.end4-pCPlatform
                         ];
 

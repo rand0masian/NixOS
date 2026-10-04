@@ -5,6 +5,7 @@
 ### 2026-10-04
 
 #### Added
+- Imported `blender` homeModule to `illogical-impulseHome`.
 - Added `blender` homeModule
 
 
