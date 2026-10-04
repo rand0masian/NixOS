@@ -6,7 +6,10 @@
 
 #### Added
 - Imported `blender` homeModule to `illogical-impulseHome`.
-- Added `blender` homeModule
+- Added `blender` homeModule.
+
+#### Fixed
+- Corrected missing dot in `CHANGELOG.md`.
 
 
 ## [v0.8.0]
