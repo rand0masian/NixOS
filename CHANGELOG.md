@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-10-04
+
+#### Added
+- Added `blender` homeModule
+
 
 ## [v0.8.0]
 
