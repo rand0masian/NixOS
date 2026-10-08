@@ -9,6 +9,9 @@
 - [Experimental] Include `serpantinumHost`, `serpantinumPlatform` and `hyprlandSerpantinumCompositor` in the experimental `default.nix`. 
 - [Experimental] Imported the serpantinum home-manager platform into the serpantinum host's `home.nix`.
 
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+
 #### Fixed
 - Corrected incorrect date in `CHANGELOG.md`.
 
