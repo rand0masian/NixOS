@@ -2,10 +2,17 @@
 
 ## [Unreleased]
 
-### 2026-10-08
+### 2026-10-09
 
 #### Added
 - [Experimental] Imported the serpantinum home-manager platform into the serpantinum host's `home.nix`.
+
+#### Fixed
+- Corrected incorrect date in `CHANGELOG.md`.
+
+### 2026-10-08
+
+#### Added
 - [Experimental] Imported the serpantinum nixos platform into the serpantinum host's `configuration.nix`. 
 - [Experimental] Added serpantinum hyprland compositor.
 - [Experimental] Added serpantinum platform.
