@@ -5,8 +5,11 @@
 ### 2026-10-08
 
 #### Added
-- [Experimental] Added serpantinum compositor.
+- [Experimental] Added serpantinum hyprland compositor.
 - [Experimental] Added serpantinum platform.
+
+#### Fixed
+- Corrected missing 'hyprland' specification in `CHANGELOG.md`.
 
 ### 2026-10-01
 
