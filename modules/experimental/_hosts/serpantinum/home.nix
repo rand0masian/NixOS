@@ -11,7 +11,6 @@
         backupFileExtension = "backup";
         extraSpecialArgs = {
             inherit inputs;
-            experimental = config.features.experimental.enable;
         };
 
         users.randomasian = {
@@ -33,7 +32,8 @@
                 self.homeModules.starship
                 self.homeModules.experimental
 
-                ../../_platforms/serpantinum/default.nix
+                ../../_platforms/serpantinum/home-manager/default.nix
+                ../../_compositors/hyprland/hyprlandSerpantinum/default.nix
             ];
 
             programs.home-manager = {
