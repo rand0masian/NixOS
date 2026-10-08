@@ -5,6 +5,7 @@
 ### 2026-10-08
 
 #### Added
+- [Experimental] Added serpantinum compositor.
 - [Experimental] Added serpantinum platform.
 
 ### 2026-10-01
