@@ -5,6 +5,7 @@
 ### 2026-10-09
 
 #### Added
+- Added the `serpantinum` input (`flake.nix`).
 - [Experimental] Include `serpantinumHost`, `serpantinumPlatform` and `hyprlandSerpantinumCompositor` in the experimental `default.nix`. 
 - [Experimental] Imported the serpantinum home-manager platform into the serpantinum host's `home.nix`.
 
