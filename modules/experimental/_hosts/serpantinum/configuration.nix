@@ -13,5 +13,6 @@
         
         ./hardware.nix
         ./home.nix
+        ../../_platforms/serpantinum/nixos/default.nix
     ];
 }

@@ -5,6 +5,7 @@
 ### 2026-10-08
 
 #### Added
+- [Experimental] Imported the serpantinum nixos platform into the serpantinum host's `configuration.nix`. 
 - [Experimental] Added serpantinum hyprland compositor.
 - [Experimental] Added serpantinum platform.
 
