@@ -13,7 +13,8 @@
 - Updated flake dependencies (`flake.lock`).
 
 #### Fixed
-[Experimental] Separated host-specific modules within experimentalModules.
+- Corrected missing dash and blender addition within `CHANGELOG.md`.
+- [Experimental] Separated host-specific modules within experimentalModules.
 - Corrected incorrect date in `CHANGELOG.md`.
 
 ### 2026-10-08
@@ -25,6 +26,12 @@
 
 #### Fixed
 - Corrected missing 'hyprland' specification in `CHANGELOG.md`.
+
+### 2026-10-04
+
+#### Added
+- Imported the `blender` homeModule to `illogical-impulseHome`.
+- Added `blender` homeModule.
 
 ### 2026-10-01
 
