@@ -13,6 +13,7 @@
 - Updated flake dependencies (`flake.lock`).
 
 #### Fixed
+[Experimental] Separated host-specific modules within experimentalModules.
 - Corrected incorrect date in `CHANGELOG.md`.
 
 ### 2026-10-08

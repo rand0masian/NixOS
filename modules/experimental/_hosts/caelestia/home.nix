@@ -1,4 +1,4 @@
-{ config, pkgs, self, inputs, ... }:
+{ config, self, inputs, ... }:
 
 {
     imports = [
@@ -31,9 +31,9 @@
                 self.homeModules.handbrake
                 self.homeModules.fish
                 self.homeModules.starship
-                self.homeModules.experimental
 
                 ../../_platforms/caelestia/default.nix
+                ./symlinks.nix
             ];
 
             programs.home-manager = {

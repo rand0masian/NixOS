@@ -1,4 +1,4 @@
-{ config, pkgs, self, inputs, ... }:
+{ config, self, inputs, ... }:
 
 {
     imports = [
@@ -11,6 +11,7 @@
         backupFileExtension = "backup";
         extraSpecialArgs = {
             inherit inputs;
+            experimental = config.features.experimental.enable;
         };
 
         users.randomasian = {
@@ -30,10 +31,10 @@
                 self.homeModules.handbrake
                 self.homeModules.fish
                 self.homeModules.starship
-                self.homeModules.experimental
 
                 ../../_platforms/serpantinum/home-manager/default.nix
                 ../../_compositors/hyprland/hyprlandSerpantinum/default.nix
+                ./symlinks.nix
             ];
 
             programs.home-manager = {
