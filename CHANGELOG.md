@@ -3,6 +3,45 @@
 ## [Unreleased]
 
 
+## [v0.9.0]
+
+### 2026-10-09
+
+#### Added
+- Added the `serpantinum` input (`flake.nix`).
+- [Experimental] Include `serpantinumHost`, `serpantinumPlatform` and `hyprlandSerpantinumCompositor` in the experimental `default.nix`. 
+- [Experimental] Imported the serpantinum home-manager platform into the serpantinum host's `home.nix`.
+
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+
+#### Fixed
+- Corrected missing dash and blender addition within `CHANGELOG.md`.
+- [Experimental] Separated host-specific modules within experimentalModules.
+- Corrected incorrect date in `CHANGELOG.md`.
+
+### 2026-10-08
+
+#### Added
+- [Experimental] Imported the serpantinum nixos platform into the serpantinum host's `configuration.nix`. 
+- [Experimental] Added serpantinum hyprland compositor.
+- [Experimental] Added serpantinum platform.
+
+#### Fixed
+- Corrected missing 'hyprland' specification in `CHANGELOG.md`.
+
+### 2026-10-04
+
+#### Added
+- Imported the `blender` homeModule to `illogical-impulseHome`.
+- Added `blender` homeModule.
+
+### 2026-10-01
+
+#### Added
+- [Experimental] Added serpantinum host. 
+
+
 ## [v0.8.0]
 
 ### 2026-10-01

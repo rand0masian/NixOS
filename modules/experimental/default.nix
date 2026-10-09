@@ -2,6 +2,7 @@
 
 let 
     caelestiaHost = ./_hosts/caelestia/default.nix;
+    serpantinumHost = ./_hosts/serpantinum/default.nix;
 
     experimentalNixos = {
         open-webui = ./_features/open-webui.nix;
@@ -10,7 +11,10 @@ let
 
     experimentalHome = {
         caelestiaPlatform = ./_platforms/caelestia/default.nix;
+        serpantinumPlatform = ./_platforms/serpantinum/home-manager/default.nix;
+        hyprlandSerpantinumCompositor = ./_compositors/hyprland/hyprlandSerpantinum/default.nix;
         caelestiaHomeSymlinks = ./_hosts/caelestia/symlinks.nix;
+        serpantinumHomeSymlinks = ./_hosts/serpantinum/symlinks.nix;
     };
 
     experimentalOverlays = {
@@ -20,11 +24,16 @@ in
 {
     imports = [
         caelestiaHost
+        serpantinumHost
     ];
 
     flake = {
         experimentalModules = {
-            nixos = experimentalNixos // { inherit caelestiaHost; };
+            nixos = experimentalNixos // {
+                inherit caelestiaHost serpantinumHost;
+                serpantinumPlatform = ./_platforms/serpantinum/nixos/default.nix;
+            };
+
             home = experimentalHome;
             overlays = experimentalOverlays;
         };
@@ -35,11 +44,6 @@ in
                     ./options.nix
                     ./_overlays.nix
                 ] ++ builtins.attrValues experimentalNixos;
-            };
-        
-        homeModules.experimental = { ... }:
-            {
-                imports = builtins.attrValues experimentalHome;
             };
     };
 }

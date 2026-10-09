@@ -1,4 +1,4 @@
-{ experimental, config, lib, ... }:
+{ ... }:
 
 {
     imports = [
