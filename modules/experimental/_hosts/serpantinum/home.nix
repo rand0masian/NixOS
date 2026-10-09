@@ -32,7 +32,8 @@
                 self.homeModules.fish
                 self.homeModules.starship
 
-                ../../_platforms/caelestia/default.nix
+                ../../_platforms/serpantinum/home-manager/default.nix
+                ../../_compositors/hyprland/hyprlandSerpantinum/default.nix
                 ./symlinks.nix
             ];
 
