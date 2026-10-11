@@ -19,14 +19,16 @@ Enabled via importing `self.homeModules.experimental` within the `home.nix` of t
 ## Experimental features:
 
 ### Hosts:
-
 - caelestia
+- serpantinum
 
 ### Platforms:
-
 - caelestia
+- serpantinum
+
+### Packages:
+- ollama-cuda
 
 ### Features:
-
 - Ollama
 - Open-webUI

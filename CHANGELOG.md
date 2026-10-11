@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-10-11
+
+#### Changed
+- Updated both `architecture.md` and `experimentalFeatures.md` to include serpantinum and `ollama-cuda` documentation.
+
 
 ## [v0.9.0]
 
