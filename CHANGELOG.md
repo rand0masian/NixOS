@@ -5,6 +5,7 @@
 ### 2026-10-12
 
 #### Added
+- Added `sketchedemo.png`, `apatheticgoth.jpg`, `bybellagoth.jpg`, `saradagoth.jpg` and `sdd_dddd.jpg` `pfps` package assets.
 - [Experimental] Imported the `libreoffice` homeModule into the serpantinum host's `home.nix`.  
 - Added the `libreoffice` homeModule.
 
