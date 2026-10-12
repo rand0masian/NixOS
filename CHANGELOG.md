@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-10-12
+
+#### Added
+- Added the `libreoffice` homeModule.
+
 ### 2026-10-11
 
 #### Changed
