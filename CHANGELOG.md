@@ -5,6 +5,7 @@
 ### 2026-10-12
 
 #### Added
+- [Experimental] Imported the `libreoffice` homeModule into the serpantinum host's `home.nix`.  
 - Added the `libreoffice` homeModule.
 
 ### 2026-10-11
