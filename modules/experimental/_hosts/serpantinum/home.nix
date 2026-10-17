@@ -31,7 +31,9 @@
                 self.homeModules.handbrake
                 self.homeModules.fish
                 self.homeModules.starship
+                self.homeModules.codex
                 self.homeModules.libreoffice
+                self.homeModules.renpy
 
                 ../../_platforms/serpantinum/home-manager/default.nix
                 ../../_compositors/hyprland/hyprlandSerpantinum/default.nix

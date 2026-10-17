@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-10-18
+
+#### Added
+- [Experimental] Imported both the `codex` and `renpy` homeModules into the serpantinum host's `home.nix`.
+
 ### 2026-10-17
 
 #### Fixed
