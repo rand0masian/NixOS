@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-10-17
+
+#### Fixed
+- Fixed overlays failing within the serpantinum host.
+
 ### 2026-10-13
 
 #### Added 

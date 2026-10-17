@@ -10,6 +10,7 @@
         self.nixosModules.flatpak
         self.nixosModules.hyprland
         self.nixosModules.fileCompression-Decompression
+        self.nixosModules.experimentalFeatures
         
         ./hardware.nix
         ./home.nix
