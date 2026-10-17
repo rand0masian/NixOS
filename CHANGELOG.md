@@ -5,7 +5,8 @@
 ### 2026-10-17
 
 #### Fixed
-- Fixed overlays failing within the serpantinum host.
+- Correct missing experimental notice in `CHANGELOG.md`.
+- [Experimental] Fixed overlays failing within the serpantinum host.
 
 ### 2026-10-13
 
