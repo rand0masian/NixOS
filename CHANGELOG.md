@@ -4,11 +4,14 @@
 
 ### 2026-10-18
 
+#### Fixed
+- Relocate documentation into the correct date within `CHANGELOG.md`.
+
+### 2026-10-17
+
 #### Added
 - Added the `hermes` homeModule.
 - [Experimental] Imported both the `codex` and `renpy` homeModules into the serpantinum host's `home.nix`.
-
-### 2026-10-17
 
 #### Fixed
 - Correct missing experimental notice in `CHANGELOG.md`.
