@@ -4,6 +4,9 @@
 
 ### 2026-10-18
 
+#### Added
+- [Experimental] Replaced `rfsousa/qwen2.5vl:tools` with `qwen3.5:4b-qv_K_M` within the ollama experimentalModule and added a context length.
+
 #### Fixed
 - Relocate documentation into the correct date within `CHANGELOG.md`.
 

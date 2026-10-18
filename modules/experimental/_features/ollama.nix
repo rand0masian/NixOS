@@ -8,7 +8,7 @@
 
       loadModels = [
         "qwen2.5-coder:7b"
-        "rfsousa/qwen2.5vl:tools"
+        "qwen3.5:4b-qv_K_M"
         "qwen2.5-coder:1.5b"
         "nomic-embed-text"
       ];
@@ -18,6 +18,7 @@
         OLLAMA_KV_CACHE_TYPE = "q8_0";
         OLLAMA_MAX_LOADED_MODELS = "-1";
         OLLAMA_KEEP_ALIVE = "30m";
+        OLLAMA_CONTEXT_LENGTH = "64000";
       };
     };
   };
