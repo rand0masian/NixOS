@@ -9,6 +9,9 @@
 - Added `qwen3.5:4b-qv_K_M` as the default model within the `hermes` homeModule.
 - [Experimental] Replaced `rfsousa/qwen2.5vl:tools` with `qwen3.5:4b-qv_K_M` within the ollama experimentalModule and added a context length.
 
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+
 #### Fixed
 - [Experimental] Corrected `qv` typo to `q4` within the `hermes` homeModule and the ollama experimentalModule.   
 - Relocate documentation into the correct date within `CHANGELOG.md`.
