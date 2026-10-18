@@ -5,6 +5,7 @@
 ### 2026-10-18
 
 #### Added
+- Imported the `hermes` homeModule into the serpantinum host's `home.nix`.
 - Added `qwen3.5:4b-qv_K_M` as the default model within the `hermes` homeModule.
 - [Experimental] Replaced `rfsousa/qwen2.5vl:tools` with `qwen3.5:4b-qv_K_M` within the ollama experimentalModule and added a context length.
 

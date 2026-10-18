@@ -34,6 +34,7 @@
                 self.homeModules.codex
                 self.homeModules.libreoffice
                 self.homeModules.renpy
+                self.homeModules.hermes
 
                 ../../_platforms/serpantinum/home-manager/default.nix
                 ../../_compositors/hyprland/hyprlandSerpantinum/default.nix
