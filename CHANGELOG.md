@@ -10,6 +10,7 @@
 - [Experimental] Replaced `rfsousa/qwen2.5vl:tools` with `qwen3.5:4b-qv_K_M` within the ollama experimentalModule and added a context length.
 
 #### Fixed
+- [Experimental] Corrected `qv` typo to `q4` within the `hermes` homeModule and the ollama experimentalModule.   
 - Relocate documentation into the correct date within `CHANGELOG.md`.
 
 ### 2026-10-17

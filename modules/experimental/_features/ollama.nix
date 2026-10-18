@@ -8,7 +8,7 @@
 
       loadModels = [
         "qwen2.5-coder:7b"
-        "qwen3.5:4b-qv_K_M"
+        "qwen3.5:4b-q4_K_M"
         "qwen2.5-coder:1.5b"
         "nomic-embed-text"
       ];

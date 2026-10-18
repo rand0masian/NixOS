@@ -18,7 +18,7 @@
 
                     settings.model = {
                         provider = "custom";
-                        default = "qwen3.5:4b-qv_K_M";
+                        default = "qwen3.5:4b-q4_K_M";
                         base_url = "http://localhost:11434/v1";
                         context_length = 64000;
                     };
