@@ -26,7 +26,7 @@
                             base_url = "http://localhost:11434/v1";
                         };
 
-                        terminal.cwd = "home/randomasian/";
+                        terminal.cwd = "home/randomasian";
                         memory = {
                             memory_enabled = true;
                             user_profile_enabled = true;
