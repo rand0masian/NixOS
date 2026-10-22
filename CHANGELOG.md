@@ -4,6 +4,9 @@
 
 ### 2026-10-22
 
+#### Added
+- Modified the `hermes` homeModule to include `workingDirectory`, `hermesHomeFiles`, `documents`, `terminal.cwd`, `memory`, `settings.gateway.api_server` and `plugins.enabled`, alongside a dedciated folder for both the module and `SOUL.md`.
+
 #### Fixed
 - Migrated `userName`, `userEmail` and `extraConfig` to `settings` within the `git` homeModule.
 
