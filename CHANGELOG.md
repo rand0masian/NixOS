@@ -3,6 +3,64 @@
 ## [Unreleased]
 
 
+## [v0.10.0]
+
+### 2026-10-22
+
+#### Added
+- Imported the `fastfetch` homeModule into the serpantinum host's `home.nix`.
+- Added the `fastfetch` homeModule.
+- Modified the `hermes` homeModule to include `workingDirectory`, `hermesHomeFiles`, `documents`, `terminal.cwd`, `memory`, `settings.gateway.api_server` and `plugins.enabled`, alongside a dedciated folder for both the module and `SOUL.md`.
+
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+
+#### Fixed
+- Corrected a typo in the `hermes` homeModule.
+- Migrated `userName`, `userEmail` and `extraConfig` to `settings` within the `git` homeModule.
+
+### 2026-10-18
+
+#### Added
+- Imported the `hermes` homeModule into the serpantinum host's `home.nix`.
+- Added `qwen3.5:4b-qv_K_M` as the default model within the `hermes` homeModule.
+- [Experimental] Replaced `rfsousa/qwen2.5vl:tools` with `qwen3.5:4b-qv_K_M` within the ollama experimentalModule and added a context length.
+
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+
+#### Fixed
+- [Experimental] Corrected `qv` typo to `q4` within the `hermes` homeModule and the ollama experimentalModule.   
+- Relocate documentation into the correct date within `CHANGELOG.md`.
+
+### 2026-10-17
+
+#### Added
+- Added the `hermes` homeModule.
+- [Experimental] Imported both the `codex` and `renpy` homeModules into the serpantinum host's `home.nix`.
+
+#### Fixed
+- Correct missing experimental notice in `CHANGELOG.md`.
+- [Experimental] Fixed overlays failing within the serpantinum host.
+
+### 2026-10-13
+
+#### Added 
+- Added the hermes input (`flake.nix`).
+
+### 2026-10-12
+
+#### Added
+- Added `sketchedemo.png`, `apatheticgoth.jpg`, `bybellagoth.jpg`, `saradagoth.jpg` and `sdd_dddd.jpg` `pfps` package assets.
+- [Experimental] Imported the `libreoffice` homeModule into the serpantinum host's `home.nix`.  
+- Added the `libreoffice` homeModule.
+
+### 2026-10-11
+
+#### Changed
+- Updated both `architecture.md` and `experimentalFeatures.md` to include serpantinum and `ollama-cuda` documentation.
+
+
 ## [v0.9.0]
 
 ### 2026-10-09

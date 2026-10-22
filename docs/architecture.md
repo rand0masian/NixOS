@@ -44,6 +44,7 @@ Current hosts:
 - noctalia
 - illogical-impulse
 - caelestia (experimental)
+- serpantinum (experimental)
 
 #### Packages
 Package definitions used by overlays.
@@ -55,6 +56,7 @@ Current platforms:
 - noctalia
 - end4-pC
 - caelestia (experimental)
+- serpantinum (experimental)
 
 ### Secrets
 Conceals sensitive information when pushed to the repository.

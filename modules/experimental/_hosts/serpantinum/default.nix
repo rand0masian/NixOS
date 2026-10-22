@@ -20,7 +20,6 @@
                 }
 
                 ./configuration.nix
-                self.nixosModules.experimental
             ];
         };
     };
