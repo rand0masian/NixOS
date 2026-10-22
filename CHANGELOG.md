@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-10-22
+
+#### Fixed
+- Migrated `userName`, `userEmail` and `extraConfig` to `settings` within the `git` homeModule.
+
 ### 2026-10-18
 
 #### Added
