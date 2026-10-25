@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-10-25
+
+#### Fixed
+- [Experimental] Removed `open-webui` from experimentalModules to avoid incompatibilities within the current nixpkgs package.
+
 
 ## [v0.10.0]
 

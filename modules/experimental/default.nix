@@ -5,7 +5,6 @@ let
     serpantinumHost = ./_hosts/serpantinum/default.nix;
 
     experimentalNixos = {
-        open-webui = ./_features/open-webui.nix;
         ollama = ./_features/ollama.nix;
     };
 
