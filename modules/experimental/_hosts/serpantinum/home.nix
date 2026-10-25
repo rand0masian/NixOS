@@ -28,7 +28,6 @@
                 self.homeModules.qbittorrent
                 self.homeModules.dolphin
                 self.homeModules.protonup-qt
-                self.homeModules.handbrake
                 self.homeModules.fish
                 self.homeModules.starship
                 self.homeModules.codex
@@ -36,6 +35,7 @@
                 self.homeModules.renpy
                 self.homeModules.hermes
                 self.homeModules.fastfetch
+                self.homeModules.quickshell
 
                 ../../_platforms/serpantinum/home-manager/default.nix
                 ../../_compositors/hyprland/hyprlandSerpantinum/default.nix

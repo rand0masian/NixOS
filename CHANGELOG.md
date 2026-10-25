@@ -5,6 +5,7 @@
 ### 2026-10-25
 
 #### Fixed
+- [Experimental] Removed the `handbrake` homeModule from the serpantinum host's `home.nix` to avoid incompatibilities within the current nixpkgs package.
 - [Experimental] Removed `open-webui` from experimentalModules to avoid incompatibilities within the current nixpkgs package.
 
 
