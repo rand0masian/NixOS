@@ -5,6 +5,7 @@
 ### 2026-10-26
 
 #### Added
+- Imported the `airi` homeModule into the serpantinum host's `home.nix`.
 - Added the `airi` homeModule.
 - Added the `airi` input (`flake.nix`).
 
