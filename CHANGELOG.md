@@ -9,6 +9,9 @@
 - Added the `airi` homeModule.
 - Added the `airi` input (`flake.nix`).
 
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+
 #### Fixed
 - Corrected missing backticks in `CHANGELOG.md`.
 
