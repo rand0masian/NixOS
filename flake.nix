@@ -86,6 +86,7 @@
             };
         };
 
+        airi.url = "github:moeru-ai/airi";
         hermes.url = "github:NousResearch/hermes-agent";
         serpantinum.url = "github:ilyamiro/serpantinum";
         nix-vscode-extensions.url = "github:nix-community/nix-vscode-extensions";

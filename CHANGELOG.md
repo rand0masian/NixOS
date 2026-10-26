@@ -4,6 +4,9 @@
 
 ### 2026-10-26
 
+#### Added
+- Added the `airi` input (`flake.nix`).
+
 #### Fixed
 - Corrected missing backticks in `CHANGELOG.md`.
 
