@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-10-26
+
+#### Fixed
+- Corrected missing backticks in `CHANGELOG.md`.
+
 ### 2026-10-25
 
 #### Fixed
@@ -52,7 +57,7 @@
 ### 2026-10-13
 
 #### Added 
-- Added the hermes input (`flake.nix`).
+- Added the `hermes` input (`flake.nix`).
 
 ### 2026-10-12
 
