@@ -3,6 +3,28 @@
 ## [Unreleased]
 
 
+## [v0.11.0]
+
+### 2026-10-26
+
+#### Added
+- Imported the `airi` homeModule into the serpantinum host's `home.nix`.
+- Added the `airi` homeModule.
+- Added the `airi` input (`flake.nix`).
+
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+
+#### Fixed
+- Corrected missing backticks in `CHANGELOG.md`.
+
+### 2026-10-25
+
+#### Fixed
+- [Experimental] Removed the `handbrake` homeModule from the serpantinum host's `home.nix` to avoid incompatibilities within the current nixpkgs package.
+- [Experimental] Removed `open-webui` from experimentalModules to avoid incompatibilities within the current nixpkgs package.
+
+
 ## [v0.10.0]
 
 ### 2026-10-22
@@ -46,7 +68,7 @@
 ### 2026-10-13
 
 #### Added 
-- Added the hermes input (`flake.nix`).
+- Added the `hermes` input (`flake.nix`).
 
 ### 2026-10-12
 
