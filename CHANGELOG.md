@@ -5,6 +5,7 @@
 ### 2026-10-26
 
 #### Added
+- Added the `airi` homeModule.
 - Added the `airi` input (`flake.nix`).
 
 #### Fixed
