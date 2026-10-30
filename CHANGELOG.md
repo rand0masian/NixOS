@@ -5,6 +5,7 @@
 ### 2026-10-30
 
 #### Added
+- Added startup commands and an `snrs` alias for `sudo nixos-rebuild switch --flake` within the `fish` homeModule. 
 - [Experimental] Imported the `obsidian` homeModule into the serpantinum host's `home.nix`.
 - Added the `obsidian` homeModule.
 - [Experimental] Added a fullscreen binding within the serpantinum hyprland compositor's `binds.nix`.
