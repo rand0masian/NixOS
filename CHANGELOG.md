@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-10-30
+
+#### Fixed
+- Fixed a conflict regarding the `xdg-desktop-portal-hyprland` package within the `xdg` nixosModule.
+
 
 ## [v0.11.0]
 
