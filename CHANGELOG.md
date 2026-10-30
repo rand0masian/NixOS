@@ -11,6 +11,7 @@
 - [Experimental] Added a fullscreen binding within the serpantinum hyprland compositor's `binds.nix`.
 
 #### Changed
+- Relocated the `/hermes` directory, `airi.nix` and `codex.nix` into a dedicated `/ai` directory within `modules/features/home-manager`.
 - Relocated `fish.nix` into the `shell` folder within `modules/features/home-manager/terminal`.
 
 #### Fixed
