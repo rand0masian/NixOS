@@ -5,6 +5,7 @@
 ### 2026-10-30
 
 #### Added
+- Added the `obsidian` homeModule.
 - [Experimental] Added a fullscreen binding within the serpantinum hyprland compositor's `binds.nix`.
 
 #### Fixed
