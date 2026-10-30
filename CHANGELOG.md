@@ -3,12 +3,36 @@
 ## [Unreleased]
 
 
+## [v0.12.0]
+
+### 2026-10-30
+
+#### Added
+- Added startup commands and an `snrs` alias for `sudo nixos-rebuild switch --flake` within the `fish` homeModule. 
+- [Experimental] Imported the `obsidian` homeModule into the serpantinum host's `home.nix`.
+- Added the `obsidian` homeModule.
+- [Experimental] Added a fullscreen binding within the serpantinum hyprland compositor's `binds.nix`.
+
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+- Relocated the `/hermes` directory, `airi.nix` and `codex.nix` into a dedicated `/ai` directory within `modules/features/home-manager`.
+- Relocated `fish.nix` into the `shell` folder within `modules/features/home-manager/terminal`.
+
+#### Fixed
+- Fixed a path error via adding an additional `../` to `documents."AGENTS.md"` within the `hermes` homeModule.
+- Corrected missing experimental notice and present tense phrasing in `CHANGELOG.md`.
+- Fixed a conflict regarding the `xdg-desktop-portal-hyprland` package within the `xdg` nixosModule.
+
+#### Removed
+- Removed a duplicate `nautilus` homeModule.
+
+
 ## [v0.11.0]
 
 ### 2026-10-26
 
 #### Added
-- Imported the `airi` homeModule into the serpantinum host's `home.nix`.
+- [Experimental] Imported the `airi` homeModule into the serpantinum host's `home.nix`.
 - Added the `airi` homeModule.
 - Added the `airi` input (`flake.nix`).
 
@@ -62,7 +86,7 @@
 - [Experimental] Imported both the `codex` and `renpy` homeModules into the serpantinum host's `home.nix`.
 
 #### Fixed
-- Correct missing experimental notice in `CHANGELOG.md`.
+- Corrected missing experimental notice in `CHANGELOG.md`.
 - [Experimental] Fixed overlays failing within the serpantinum host.
 
 ### 2026-10-13

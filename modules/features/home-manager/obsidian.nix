@@ -2,10 +2,10 @@
 
 {
     flake.homeModules = {
-        nautilus = { config, pkgs, ... }:
+        obsidian = { pkgs, ... }:
             {
                 home.packages = with pkgs; [
-                    nautilus
+                    obsidian
                 ];
             };
     };
