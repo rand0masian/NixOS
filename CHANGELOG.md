@@ -15,6 +15,7 @@
 - Relocated `fish.nix` into the `shell` folder within `modules/features/home-manager/terminal`.
 
 #### Fixed
+- Fixed a path error via adding an additional `../` to `documents."AGENTS.md"` within the `hermes` homeModule.
 - Corrected missing experimental notice and present tense phrasing in `CHANGELOG.md`.
 - Fixed a conflict regarding the `xdg-desktop-portal-hyprland` package within the `xdg` nixosModule.
 

@@ -18,7 +18,7 @@
 
                     workingDirectory = "/home/randomasian";
                     hermesHomeFiles."SOUL.md" = ./SOUL.md;
-                    documents."AGENTS.md" = ../../../../AGENTS.md;
+                    documents."AGENTS.md" = ../../../../../AGENTS.md;
                     settings = {
                         model = {
                             provider = "custom";
