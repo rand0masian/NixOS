@@ -3,6 +3,14 @@
 ## [Unreleased]
 
 
+## [v0.12.1]
+
+### 2026-10-30
+
+#### Fixed
+- [Experimental] Removed the `airi` homeModule from the serpantinum host's `home.nix` to avoid an upstream hash mismatch.
+
+
 ## [v0.12.0]
 
 ### 2026-10-30

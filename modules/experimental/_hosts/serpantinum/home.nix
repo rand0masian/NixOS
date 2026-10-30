@@ -36,7 +36,6 @@
                 self.homeModules.hermes
                 self.homeModules.fastfetch
                 self.homeModules.quickshell
-                self.homeModules.airi
                 self.homeModules.obsidian
 
                 ../../_platforms/serpantinum/home-manager/default.nix
