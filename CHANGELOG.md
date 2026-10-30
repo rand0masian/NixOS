@@ -5,6 +5,7 @@
 ### 2026-10-30
 
 #### Fixed
+- Corrected missing experimental notice and present tense phrasing in `CHANGELOG.md`.
 - Fixed a conflict regarding the `xdg-desktop-portal-hyprland` package within the `xdg` nixosModule.
 
 
@@ -13,7 +14,7 @@
 ### 2026-10-26
 
 #### Added
-- Imported the `airi` homeModule into the serpantinum host's `home.nix`.
+- [Experimental] Imported the `airi` homeModule into the serpantinum host's `home.nix`.
 - Added the `airi` homeModule.
 - Added the `airi` input (`flake.nix`).
 
@@ -67,7 +68,7 @@
 - [Experimental] Imported both the `codex` and `renpy` homeModules into the serpantinum host's `home.nix`.
 
 #### Fixed
-- Correct missing experimental notice in `CHANGELOG.md`.
+- Corrected missing experimental notice in `CHANGELOG.md`.
 - [Experimental] Fixed overlays failing within the serpantinum host.
 
 ### 2026-10-13
