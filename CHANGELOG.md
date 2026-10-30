@@ -19,6 +19,9 @@
 - Corrected missing experimental notice and present tense phrasing in `CHANGELOG.md`.
 - Fixed a conflict regarding the `xdg-desktop-portal-hyprland` package within the `xdg` nixosModule.
 
+#### Removed
+- Removed a duplicate `nautilus` homeModule.
+
 
 ## [v0.11.0]
 
