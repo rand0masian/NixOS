@@ -5,6 +5,7 @@
 ### 2026-10-30
 
 #### Added
+- [Experimental] Imported the `obsidian` homeModule into the serpantinum host's `home.nix`.
 - Added the `obsidian` homeModule.
 - [Experimental] Added a fullscreen binding within the serpantinum hyprland compositor's `binds.nix`.
 
