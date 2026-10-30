@@ -61,6 +61,7 @@
 
                 "$mod, Q, killactive"
                 "$mod SHIFT, F, togglefloating"
+                "$mod, F, fullscreen, 0"
 
                 "$mod, W, exec, zen-twilight"
                 "$mod, C, exec, codium"

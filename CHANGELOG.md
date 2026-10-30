@@ -4,6 +4,9 @@
 
 ### 2026-10-30
 
+#### Added
+- [Experimental] Added a fullscreen binding within the serpantinum hyprland compositor's `binds.nix`.
+
 #### Fixed
 - Corrected missing experimental notice and present tense phrasing in `CHANGELOG.md`.
 - Fixed a conflict regarding the `xdg-desktop-portal-hyprland` package within the `xdg` nixosModule.
