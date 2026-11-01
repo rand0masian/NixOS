@@ -12,7 +12,7 @@
     wayland.windowManager = {
         hyprland = {
             enable = true;
-            configType = "hyprlang";
+            configType = "lua";
         };
     };
 }

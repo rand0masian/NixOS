@@ -2,12 +2,29 @@
 
 {
     wayland.windowManager = {
-        hyprland.settings = {
-            monitor = [
-                "DP-3,2560x1440@179.959,0x0,1"
-                "DP-2,1920x1080@74.973,2560x0,1"
-                "HDMI-A-1,1920x1080@143.981,320x-1080,1"
-            ];
+        hyprland.extraLuaFiles = {
+            monitors.content = ''
+                hl.monitor({
+                    output = "DP-3",
+                    mode = "2560x1440@179.959",
+                    position = "0x0",
+                    scale = 1,
+                })
+
+                hl.monitor({
+                    output = "DP-2",
+                    mode = "1920x1080@74.973",
+                    position = "2560x0",
+                    scale = 1,
+                })
+
+                hl.monitor({
+                    output = "HDMI-A-1",
+                    mode = "1920x1080@143.981",
+                    position = "320x-1080",
+                    scale = 1,
+                })
+            '';
         };
     };
 }
