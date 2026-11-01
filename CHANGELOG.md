@@ -5,6 +5,7 @@
 ### 2026-11-01
 
 #### Changed
+- Updated flake dependencies (`flake.lock`).
 - [Experimental] Migrated from hyprlang to lua within the serpantinum hyprland compositor. 
 
 
