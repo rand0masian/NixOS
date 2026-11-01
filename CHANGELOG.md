@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-11-01
+
+#### Changed
+- [Experimental] Migrated from hyprlang to lua within the serpantinum hyprland compositor. 
+
 
 ## [v0.12.1]
 

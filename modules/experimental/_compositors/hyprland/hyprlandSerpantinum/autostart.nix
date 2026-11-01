@@ -2,13 +2,15 @@
 
 {
     wayland.windowManager = {
-        hyprland.settings = {
-            exec-once = [
-                "wl-paste --type text --watch cliphist store"
-                "wl-paste --type image --watch cliphist store"
-                "systemctl --user enable --now easyeffects"
-                "sleep 1 && systemctl --user start hyprland-session.target"
-            ];
+        hyprland.extraLuaFiles = {
+            autostart.content = ''
+                hl.on("hyprland.start", function()
+                    hl.exec_cmd("wl-paste --type text --watch cliphist store")
+                    hl.exec_cmd("wl-paste --type image --watch cliphist store")
+                    hl.exec_cmd("systemctl --user enable --now easyeffects")
+                    hl.exec_cmd("sleep 1 && systemctl --user start hyprland-session.target")
+                end)
+            '';
         };
     };
 }
