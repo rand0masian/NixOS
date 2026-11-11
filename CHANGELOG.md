@@ -8,6 +8,9 @@
 - [Experimental] Imported the `cliamp` homeModule into the serpantinum host's `home.nix`. 
 - Added the `cliamp` homeModule.
 
+#### Changed
+- [Experimental] Replaced nautilus with ski within the serpantinum hyprland compositor's `binds.nix`.
+
 
 ## [v0.13.0]
 

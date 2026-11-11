@@ -128,7 +128,7 @@
 
                 hl.bind(mod .. " + W", hl.dsp.exec_cmd("zen-twilight"))
                 hl.bind(mod .. " + C", hl.dsp.exec_cmd("codium"))
-                hl.bind(mod .. " + E", hl.dsp.exec_cmd("nautilus"))
+                hl.bind(mod .. " + E", hl.dsp.exec_cmd("ski"))
                 hl.bind(mod .. " + S", hl.dsp.exec_cmd("spotify"))
                 hl.bind(mod .. " + RETURN", hl.dsp.exec_cmd(terminal))
 
