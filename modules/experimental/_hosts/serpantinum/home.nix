@@ -38,6 +38,7 @@
                 self.homeModules.quickshell
                 self.homeModules.obsidian
                 self.homeModules.cliamp
+                self.homeModules.blender
 
                 ../../_platforms/serpantinum/home-manager/default.nix
                 ../../_compositors/hyprland/hyprlandSerpantinum/default.nix

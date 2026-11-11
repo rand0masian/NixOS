@@ -5,6 +5,7 @@
 ### 2026-11-11
 
 #### Added
+- [Experimental] Imported the `blender` homeModule into the serpantinum host's `home.nix`.
 - Added a `context_length` option, set to `64000` within the `hermes` homeModule.
 - [Experimental] Added `huihui_ai/gemma-4-abliterated:e4b` within the `ollama` experimentalModule.
 - [Experimental] Imported the `cliamp` homeModule into the serpantinum host's `home.nix`. 
