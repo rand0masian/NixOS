@@ -12,6 +12,9 @@
 #### Changed
 - [Experimental] Replaced nautilus with ski within the serpantinum hyprland compositor's `binds.nix`.
 
+#### Fixed
+- Corrected missing backticks in `CHANGELOG.md`.
+
 #### Removed
 - [Experimental] Removed `qwen2.5-coder:7b` and `qwen2.5-coder:1.5b` within the `ollama` experimentalModule.
 
@@ -100,7 +103,7 @@
 #### Added
 - Imported the `hermes` homeModule into the serpantinum host's `home.nix`.
 - Added `qwen3.5:4b-qv_K_M` as the default model within the `hermes` homeModule.
-- [Experimental] Replaced `rfsousa/qwen2.5vl:tools` with `qwen3.5:4b-qv_K_M` within the ollama experimentalModule and added a context length.
+- [Experimental] Replaced `rfsousa/qwen2.5vl:tools` with `qwen3.5:4b-qv_K_M` within the `ollama` experimentalModule and added a context length.
 
 #### Changed
 - Updated flake dependencies (`flake.lock`).
