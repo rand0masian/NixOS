@@ -3,6 +3,29 @@
 ## [Unreleased]
 
 
+## [v0.14.0]
+
+### 2026-11-11
+
+#### Added
+- [Experimental] Imported the `blender` homeModule into the serpantinum host's `home.nix`.
+- Added a `context_length` option, set to `64000` within the `hermes` homeModule.
+- [Experimental] Added `huihui_ai/gemma-4-abliterated:e4b` within the `ollama` experimentalModule.
+- [Experimental] Imported the `cliamp` homeModule into the serpantinum host's `home.nix`. 
+- Added the `cliamp` homeModule.
+
+#### Changed
+- Updated flake dependencies (`flake.lock`).
+- Replaced `qwen3.5:4b-q4_K_M` with `huihui_ai/gemma-4-abliterated:e4b` within the `hermes` homeModule.
+- [Experimental] Replaced nautilus with ski within the serpantinum hyprland compositor's `binds.nix`.
+
+#### Fixed
+- Corrected missing backticks in `CHANGELOG.md`.
+
+#### Removed
+- [Experimental] Removed `qwen2.5-coder:7b` and `qwen2.5-coder:1.5b` within the `ollama` experimentalModule.
+
+
 ## [v0.13.0]
 
 ### 2026-11-01
@@ -87,7 +110,7 @@
 #### Added
 - Imported the `hermes` homeModule into the serpantinum host's `home.nix`.
 - Added `qwen3.5:4b-qv_K_M` as the default model within the `hermes` homeModule.
-- [Experimental] Replaced `rfsousa/qwen2.5vl:tools` with `qwen3.5:4b-qv_K_M` within the ollama experimentalModule and added a context length.
+- [Experimental] Replaced `rfsousa/qwen2.5vl:tools` with `qwen3.5:4b-qv_K_M` within the `ollama` experimentalModule and added a context length.
 
 #### Changed
 - Updated flake dependencies (`flake.lock`).
