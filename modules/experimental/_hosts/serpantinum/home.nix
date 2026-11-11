@@ -37,6 +37,7 @@
                 self.homeModules.fastfetch
                 self.homeModules.quickshell
                 self.homeModules.obsidian
+                self.homeModules.cliamp
 
                 ../../_platforms/serpantinum/home-manager/default.nix
                 ../../_compositors/hyprland/hyprlandSerpantinum/default.nix
