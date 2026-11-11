@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 2026-11-11
+
+#### Added
+- Added the `cliamp` homeModule.
+
 
 ## [v0.13.0]
 
