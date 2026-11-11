@@ -12,6 +12,7 @@
 - Added the `cliamp` homeModule.
 
 #### Changed
+- Updated flake dependencies (`flake.lock`).
 - Replaced `qwen3.5:4b-q4_K_M` with `huihui_ai/gemma-4-abliterated:e4b` within the `hermes` homeModule.
 - [Experimental] Replaced nautilus with ski within the serpantinum hyprland compositor's `binds.nix`.
 
