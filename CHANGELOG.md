@@ -5,11 +5,13 @@
 ### 2026-11-11
 
 #### Added
+- Added a `context_length` option, set to `64000` within the `hermes` homeModule.
 - [Experimental] Added `huihui_ai/gemma-4-abliterated:e4b` within the `ollama` experimentalModule.
 - [Experimental] Imported the `cliamp` homeModule into the serpantinum host's `home.nix`. 
 - Added the `cliamp` homeModule.
 
 #### Changed
+- Replaced `qwen3.5:4b-q4_K_M` with `huihui_ai/gemma-4-abliterated:e4b` within the `hermes` homeModule.
 - [Experimental] Replaced nautilus with ski within the serpantinum hyprland compositor's `binds.nix`.
 
 #### Fixed

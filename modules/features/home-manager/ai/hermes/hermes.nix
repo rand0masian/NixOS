@@ -22,7 +22,8 @@
                     settings = {
                         model = {
                             provider = "custom";
-                            default = "qwen3.5:4b-q4_K_M";
+                            default = "huihui_ai/gemma-4-abliterated:e4b";
+                            context_length = 64000;
                             base_url = "http://localhost:11434/v1";
                         };
 
