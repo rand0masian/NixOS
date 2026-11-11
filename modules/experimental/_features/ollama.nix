@@ -7,9 +7,8 @@
       package = pkgs.ollama-cuda;
 
       loadModels = [
-        "qwen2.5-coder:7b"
+        "huihui_ai/gemma-4-abliterated:e4b"
         "qwen3.5:4b-q4_K_M"
-        "qwen2.5-coder:1.5b"
         "nomic-embed-text"
       ];
 

@@ -5,11 +5,15 @@
 ### 2026-11-11
 
 #### Added
+- [Experimental] Added `huihui_ai/gemma-4-abliterated:e4b` within the `ollama` experimentalModule.
 - [Experimental] Imported the `cliamp` homeModule into the serpantinum host's `home.nix`. 
 - Added the `cliamp` homeModule.
 
 #### Changed
 - [Experimental] Replaced nautilus with ski within the serpantinum hyprland compositor's `binds.nix`.
+
+#### Removed
+- [Experimental] Removed `qwen2.5-coder:7b` and `qwen2.5-coder:1.5b` within the `ollama` experimentalModule.
 
 
 ## [v0.13.0]
